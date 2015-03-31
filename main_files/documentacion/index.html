@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Documentation - Anderson - Responsive Multipurpose Onepage Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+    .clear {clear: both;}
+    .button_rec  a{
+padding: 7px 18px;
+font-size:13px;
+top:10px;
+font-weight: bold;
+border: 2px solid #b7b7b7;
+-webkit-transition: border-color 0.3s linear, color 0.3s linear;
+-moz-transition: border-color 0.3s linear, color 0.3s linear;
+-o-transition: border-color 0.3s linear, color 0.3s linear;
+transition: border-color 0.3s linear, color 0.3s linear;
+color: #9C9C9C!important;
+letter-spacing: 1.5px;
+position: relative;
+display: inline-block; float: left; margin-right:20px;
+}
+.uppercase {text-transform: uppercase;}
+.button_rec a:hover {border: 2px solid #2f353e;color: #2f353e!important; text-decoration: none;}
+</style>
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+            <div class="row">
+              <div class="span7">
+                 <div id="logo"><img src="assets/img/logo.png" alt=""></div>
+              </div>
+              <div class="span5 buttonshead">
+              
+                 <a href="http://www.bypixels.com/purchase/anderson" target="_blank"><button type="button" class="btn btn-success right">Purchase Theme</button></a>
+                 <a href="http://www.bypixels.com/themes/anderson/preview.html" target="_blank"><button type="button" class="btn btn-success right">View demo</button></a>
+              </div>
+
+            </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>Documentation</h1>
+    <p class="lead">Anderson - Responsive Multipurpose Onepage Template</p>
+  </div>
+</header>
+
+<div class="custom_nav">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <ul class="nav" id="scrollnav">
+          <li><a href="#start"> Start</a></li>
+          <li><a href="#basics">Basics</a></li>
+
+            <li><a href="#menu">Menu</a></li>
+             <li><a href="#slides">Slides</a></li>
+                  <li><a href="#about_team">About & Team</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#icons">Icons</a></li>
+          <li><a href="#shortcodes">Shortcodes</a></li>
+          <li><a href="#style">Style & JS </a></li>
+           <li><a href="#caro">Carousels</a></li>
+          <li><a href="#source">Source & Credits</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      
+      <div class="span12">
+
+        <!-- Dropdowns
+        ================================================== -->
+      <section id="start">
+          <div class="page-header">
+            <h1>Start</h1>
+          </div>
+          <p>Thank you so much for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to contact us.</p>
+          
+          <ul>
+            <li>Created: 03/12/2014</li>
+            <li>Latest Update: 28/02/2015</li>
+            <li>By: <a href="http://www.themeforest.net/user/breecode" target="_blank">Breecode</a></li>
+            <li><a href="http://bypixels.com/themes/anderson" target="_blank">http://bypixels.com/themes/Anderson</a></li>
+            <li>Email: <a href="mailto:support@bypixels.com">support@bypixels.com</a></li>
+          </ul>
+        </section>
+        <hr class="bs-docs-separator">
+
+      <section id="grid">
+  
+            <h2>The Grid System</h2>
+        
+
+          <h4>One Columns</h4>
+          <p>If you want one columns use this markup.</p>
+
+          <pre class="prettyprint linenums">
+&lt;div class="col-md-12"&gt; 
+  CONTENT GOES HERE
+&lt;/div&gt;&lt;!-- end span12 --&gt;</pre>
+
+          <h4>Two Columns</h4>
+  
+          <pre class="prettyprint linenums">
+&lt;div class="col-md-6"&gt; 
+  CONTENT GOES HERE
+&lt;/div&gt;&lt;!-- end col-md-6 --&gt;
+
+&lt;div class="col-md-6"&gt; 
+  CONTENT GOES HERE
+&lt;/div&gt;&lt;!-- end col-md-6 --&gt;</pre>
+
+
+
+<h4>Three Columns</h4>
+
+<pre class="prettyprint linenums">
+&lt;div class="col-md-4"&gt; 
+    CONTENT GOES HERE
+&lt;/div&gt;&lt;!-- end col-md-4 --&gt;
+
+&lt;div class="col-md-4"&gt; 
+    CONTENT GOES HERE
+&lt;/div&gt;&lt;!-- end col-md-4 --&gt;
+
+&lt;div class="col-md-4"&gt; 
+    CONTENT GOES HERE
+&lt;/div&gt;&lt;!-- end col-md-4 --&gt;
+</pre>
+
+<h4>Four Columns</h4>
+
+<pre class="prettyprint linenums">
+&lt;div class="col-md-3"&gt; 
+    CONTENT GOES HERE
+&lt;/div&gt;&lt;!-- end col-md-3 --&gt;
+
+&lt;div class="col-md-3"&gt; 
+    CONTENT GOES HERE
+&lt;/div&gt;&lt;!-- end col-md-3 --&gt;
+
+&lt;div class="col-md-3"&gt; 
+    CONTENT GOES HERE
+&lt;/div&gt;&lt;!-- end col-md-3 --&gt;
+
+&lt;div class="col-md-3"&gt; 
+    CONTENT GOES HERE
+&lt;/div&gt;&lt;!-- end col-md-3 --&gt;
+</pre>
+
+<p>Anderson uses Bootstrap 3. For more information about the grid visit <a href="http://getbootstrap.com/css/#grid" target="_blank">http://getbootstrap.com/css/#grid</a></p>
+
+
+
+
+</section>
+
+
+
+<hr class="bs-docs-separator">
+        <!-- Grid Groups
+        ================================================== -->
+     
+<section id="basics">
+
+<h2>CSS Structure</h2>
+<P>This template have a lot of CSS, here is the structure</P>  
+
+<pre class="prettyprint linenums">
+1 - BASE 
+2 - PRELOADER 
+3 - TRANSITIONS 
+4 - HEADER & MAIN NAV - A) Logo
+4 - HEADER & MAIN NAV B) Global
+4 - HEADER & MAIN NAV - C)Header social icons background
+5 - WELCOME
+6 - ABOUT US
+7 - PAGE TITLE 
+8 - RESPONSIVE NAV
+9 - REVOLUTION SLIDER & CUSTOM CAPTIONS
+10 - VIDEO SLIDER
+11 - SERVICES
+12 - TEAM
+13 - PROCESS 01
+14 - RETINA ICONS
+15 - SHORTCODES - A) Tabs
+15 - SHORTCODES - B) Accordion & Triggers
+16 - BLOG - A) Global
+16 - BLOG - B) Blog Section  
+16 - BLOG - C) Blog Post 
+16 - BLOG - D) About the author
+16 - BLOG - E) Comments 
+17 - BLOG SIDEBAR  A) Global
+17 - BLOG SIDEBAR  B) Tag Cloud
+17 - BLOG SIDEBAR  C) Categories Widget
+18 - PAGINATION
+19 - TWITTER FEED
+20 - PORTFOLIO A) Global
+20 - PORTFOLIO B) two_columns Style 
+20 - PORTFOLIO C) four_columns Style
+20 - PORTFOLIO D) Isotope
+21 - FAQ
+22 - PRICING TABLES
+23 - CLIENTS
+24 - FOOTER
+25 - SKILLS
+26 - BUTTONS
+27 - ICONS 
+28 - TESTIMONIALS
+29 - PARALLAX SECTIONS
+30-  ANIMATIONS
+31 - MEDIA QUERIES
+</pre>
+
+</section>
+
+
+
+
+
+
+<div class="bs-docs-separator"></div>
+
+
+<section id="menu">
+
+<h2>Menu Styles</h2>
+<P>Anderson comes with 11 diffrent menu combinations and posibilities. And the best part is that you can change your menu with only 1 class.</P>  
+
+<br>
+<h4>Menu Style 01</h4>
+<p>From Transparent to Solid White</p>
+<div class="row">
+  <div class="span12">
+ <img src="assets/img/menu1.jpg" alt="">
+  </div>
+</div>
+
+<br>
+<h4>How to do it?</h4>
+<p><strong>Add the class <code>.transparent_menu</code> to the <code>&lt;header&gt;</code></strong></p>
+<p>Example:</p>
+
+
+<pre class="prettyprint linenums">
+&lt;header class="transparent_menu"&gt;
+</pre>
+
+
+<div class="clear"></div>
+<br><br>
+
+<h4>Menu Style 02</h4>
+<p>From Transparent to Dark</p>
+<div class="row">
+  <div class="span12">
+ <img src="assets/img/menu2.jpg" alt="">
+  </div>
+</div>
+
+<br>
+<h4>How to do it?</h4>
+<p><strong>Add the class <code>.transparent_menu .dark</code> to the <code>&lt;header&gt;</code></strong></p>
+<p>Example:</p>
+
+
+<pre class="prettyprint linenums">
+&lt;header class="transparent_menu dark"&gt;
+</pre>
+
+
+
+
+
+
+
+<br><br>
+<h4>Menu Style 03</h4>
+<p>Always White</p>
+<div class="row">
+  <div class="span12">
+ <img src="assets/img/menu3.jpg" alt="">
+  </div>
+</div>
+
+<br>
+<h4>How to do it?</h4>
+<p><strong>Add the class <code>.white_menu</code> to the <code>&lt;header&gt;</code></strong></p>
+<p>Example:</p>
+
+
+<pre class="prettyprint linenums">
+&lt;header class="white_menu"&gt;
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<h4>Menu Style 04</h4>
+<p>Always Dark</p>
+<div class="row">
+  <div class="span12">
+ <img src="assets/img/menu4.jpg" alt="">
+  </div>
+</div>
+
+<br>
+<h4>How to do it?</h4>
+<p><strong>Add the class <code>.dark_menu</code> to the <code>&lt;header&gt;</code></strong></p>
+<p>Example:</p>
+
+
+<pre class="prettyprint linenums">
+&lt;header class="dark_menu"&gt;
+</pre>
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<h4>Menu Style 05</h4>
+<p>Always Dark Transparent</p>
+<div class="row">
+  <div class="span12">
+ <img src="assets/img/menu5.jpg" alt="">
+  </div>
+</div>
+
+<br>
+<h4>How to do it?</h4>
+<p><strong>Add the class <code>.transparent_dark_menu</code> to the <code>&lt;header&gt;</code></strong></p>
+<p>Example:</p>
+
+
+<pre class="prettyprint linenums">
+&lt;header class="transparent_dark_menu"&gt;
+</pre>
+
+
+
+
+
+
+<br><br>
+
+<h4>Menu Style 06</h4>
+<p>From Dark Transparent to Solid White</p>
+<div class="row">
+  <div class="span12">
+ <img src="assets/img/menu6.jpg" alt="">
+  </div>
+</div>
+
+<br>
+<h4>How to do it?</h4>
+<p><strong>Add the class <code>.transparent_dark_menu .white</code> to the <code>&lt;header&gt;</code></strong></p>
+<p>Example:</p>
+
+
+<pre class="prettyprint linenums">
+&lt;header class="transparent_dark_menu white"&gt;
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+
+<h4>Menu Style 07</h4>
+<p>From Dark Transparent to Solid Dark</p>
+<div class="row">
+  <div class="span12">
+ <img src="assets/img/menu7.jpg" alt="">
+  </div>
+</div>
+
+<br>
+<h4>How to do it?</h4>
+<p><strong>Add the class <code>.transparent_dark_menu .dark</code> to the <code>&lt;header&gt;</code></strong></p>
+<p>Example:</p>
+
+
+<pre class="prettyprint linenums">
+&lt;header class="transparent_dark_menu dark"&gt;
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+
+<div class="alert"><strong>Be aware that in center menus you will need a little change in HTML</strong></div>
+<h3>Read before using center menus</h3>
+<p>Center menus need this code, please replace your header with this code.</p>
+
+ <pre class="prettyprint linenums"><code>&lt;!-- *** HEADER STARTS *** --&gt;
+  &lt;header class="center_style dark_menu"&gt;
+  &lt;div class="container-fluid"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-md-12"&gt;
+
+        
+
+        &lt;!-- *** MAIN NAVIGATION STARTS *** --&gt;
+        &lt;nav class="main_nav white"&gt;
+          &lt;ul&gt;
+            &lt;li class="active"&gt;&lt;a href="#top"&gt;Home&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#about-us"&gt;About &lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#services"&gt;Services&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#portfolio"&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#process_one"&gt;Process&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#faq"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#footer"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/nav&gt;
+        &lt;!-- *** MAIN NAVIGATION END *** --&gt;
+
+        
+
+        &lt;ul class="mobile_nav_trigger"&gt;
+            &lt;li&gt;&lt;a href="#responsive_nav" class="menu_trigger"&gt;&lt;i class="fa fa-bars fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;div class="social_nav"&gt;
+          &lt;ul&gt;
+            &lt;li class="twitter_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-twitter fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="facebook_header_icon"&gt;&lt;a href="#facebook"&gt;&lt;i class="fa fa-facebook fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+        
+
+        &lt;!-- *** LOGOS STARTS *** --&gt;
+        &lt;div id="logo"&gt;
+          &lt;a href="#top"&gt;&lt;img src="images/logo.png" alt="logo"&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div id="logo_dark"&gt;
+          &lt;a href="#top"&gt;&lt;img src="images/logo_dark.png" alt="logo"&gt;&lt;/a&gt;
+        &lt;/div&gt; 
+        &lt;!-- *** LOGOS END *** --&gt;
+
+
+      &lt;/div&gt;&lt;!--col-me-12--&gt;
+    &lt;/div&gt;&lt;!--row--&gt;
+  &lt;/div&gt;&lt;!--container-fluid--&gt;
+
+
+&lt;!-- *** RESPONSIVE NAV START *** --&gt;
+  &lt;div class="responsive_nav"&gt;
+    &lt;div class="mobileAreaMenu dark_style"&gt;
+      &lt;ul&gt;
+        &lt;li class="active"&gt;&lt;a href="#top"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#about-us"&gt;About &lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#services"&gt;Services&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#portfolio"&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#process_one"&gt;Process&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#faq"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#footer"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="shortcodes.html" class="external"&gt;Shortcodes &lt;span class="label label-danger"&gt;New&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;&lt;!--mobileAreaMenu--&gt;
+  &lt;/div&gt;&lt;!--responsive_nav--&gt;
+&lt;!-- *** RESPONSIVE NAV END *** --&gt;
+
+&lt;/header&gt;
+&lt;!-- *** HEADER END *** --&gt;</code></pre>
+
+<br>
+
+<h4>Menu Style 08</h4>
+<p>Center Transparent to Solid White</p>
+<div class="row">
+  <div class="span12">
+ <img src="assets/img/menu8.jpg" alt="">
+  </div>
+</div>
+
+<br>
+<h4>How to do it?</h4>
+<p><strong>Add the class <code>.center_style .white</code> to the <code>&lt;header&gt;</code></strong></p>
+<p>Example:</p>
+
+
+<pre class="prettyprint linenums">
+&lt;header class="center_style white"&gt;
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+
+<h4>Menu Style 09</h4>
+<p>Center Transparent to Solid Dark</p>
+<div class="row">
+  <div class="span12">
+ <img src="assets/img/menu9.jpg" alt="">
+  </div>
+</div>
+
+<br>
+<h4>How to do it?</h4>
+<p><strong>Add the class <code>.center_style .dark</code> to the <code>&lt;header&gt;</code></strong></p>
+<p>Example:</p>
+
+
+<pre class="prettyprint linenums">
+&lt;header class="center_style dark"&gt;
+</pre>
+
+
+
+
+
+
+<br><br>
+
+<h4>Menu Style 10</h4>
+<p>Center Solid Dark</p>
+<div class="row">
+  <div class="span12">
+ <img src="assets/img/menu10.jpg" alt="">
+  </div>
+</div>
+
+<br>
+<h4>How to do it?</h4>
+<p><strong>Add the class <code>.center_style .dark_menu</code> to the <code>&lt;header&gt;</code></strong></p>
+<p>Example:</p>
+
+
+<pre class="prettyprint linenums">
+&lt;header class="center_style dark_menu"&gt;
+</pre>
+
+
+
+
+<br><br>
+
+<h4>Menu Style 11</h4>
+<p>Center Solid White</p>
+<div class="row">
+  <div class="span12">
+ <img src="assets/img/menu11.jpg" alt="">
+  </div>
+</div>
+
+<br>
+<h4>How to do it?</h4>
+<p><strong>Add the class <code>.center_style .white_menu</code> to the <code>&lt;header&gt;</code></strong></p>
+<p>Example:</p>
+
+
+<pre class="prettyprint linenums">
+&lt;header class="center_style white_menu"&gt;
+</pre>
+
+
+
+<br><br>
+
+<h2>Menu social Icons</h2>
+<div class="row">
+  <div class="span12">
+    <img src="assets/img/menus.jpg" alt="">
+  </div>
+</div>
+<br>
+<p>The complete list of icons is this</p>
+<pre class="prettyprint linenums"><code>&lt;div class="social_nav"&gt;
+  &lt;ul&gt;
+    &lt;li class="twitter_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-twitter fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="facebook_header_icon"&gt;&lt;a href="#facebook"&gt;&lt;i class="fa fa-facebook fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;  
+    &lt;li class="wordpress_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-wordpress fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="tumblr_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-tumblr fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="soundcloud_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-soundcloud fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="vine_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-vine fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="youtube_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-youtube fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="pinterest_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-pinterest fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="linkedin_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-linkedin fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="lastfm_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-lastfm fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="foursquare_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-foursquare fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="digg_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-digg fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="dribbble_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-dribbble fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="flickr_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-flickr fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="behance_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-behance fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="deviantart_header_icon"&gt;&lt;a href="#twitter"&gt;&lt;i class="fa fa-deviantart fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code> </pre>
+<br><br>
+  <h2>How to add external links on nav?</h2>
+
+  <p>Use the class <code>.external</code> to add external links</p>
+<pre class="prettyprint linenums"><code>&lt;nav class="main_nav white"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;  &lt;a href="#top"&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;  &lt;a href="#about-us"&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;  &lt;a href="http://wwww.facebook.com" class="external"&gt;Facebook  &lt;/a&gt;  &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+
+<p>Now, the link facebook will open the URL.</p>
+
+</section>
+
+
+<div class="bs-docs-separator"></div>
+<br><br>
+
+
+<section id="slides">
+  <h2>Slides & Google Fonts</h2>
+  <p>Every HTML file comes with the Google Font links, so you don't have to config anything, but in order to undertand Anderson better we have made a guide. This guide will tell you what font uses each slider.</p>
+  <div class="alert"><strong>Important: Each slider is ready to use, use this guide for optimization purpose. Remove the Google font links that you don't need to save load time.</strong></div>
+<br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/1.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 01</h4><p>This style uses <strong>Google Font: Lato</strong> as a main font and <strong>Google font: Open Sans</strong> as a second font.</p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+
+ &lt;!-- EXTRA FONT FOR SLIDER --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'&gt;</code></pre>
+      
+    </div>
+  </div>
+
+
+
+  <br> <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/2.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 02</h4><p>This style uses <strong>Google Font: Lato</strong> as a main font and <strong>Google font: Open Sans</strong> as a second font.</p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+
+ &lt;!-- EXTRA FONT FOR SLIDER --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'&gt;</code></pre>
+      
+    </div>
+  </div>
+
+ <br>
+
+
+  <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/3.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 03</h4><p>This style uses <strong>Google Font: Roboto</strong> as a main font and <strong>Google font: Open Sans</strong> as a second font.</p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+
+ &lt;!-- EXTRA FONT FOR SLIDER --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'&gt;</code></pre>
+      
+    </div>
+  </div>
+
+ <br>
+
+  <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/4.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 04</h4><p>This style uses <strong>Google Font: Raleway</strong> as a main font and <strong>Google font: Ubuntu</strong> as a second font.</p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+
+ &lt;!-- EXTRA FONT FOR SLIDER --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+      
+    </div>
+  </div>
+
+
+ <br>
+  <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/5.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 05</h4><p>This style uses <strong>Google Font: PT Sans</strong> as a main font.</p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+      
+    </div>
+  </div>
+
+<br><br>
+
+  <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/6.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 06</h4><p>This style uses <strong>Google Font: Amatic SC</strong> as a main font and <strong>Google font: Dancing Script</strong> as a second font.</p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+
+&lt;!-- EXTRA FONT FOR SLIDER --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+      
+    </div>
+  </div>
+
+
+ <br>
+  <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/7.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 07</h4><p>This style uses <strong>Google Font: Oswald</strong> as a main font </p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+
+&lt;!-- EXTRA FONT FOR SLIDER --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+      
+    </div>
+  </div>
+
+ <br>
+
+  <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/8.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 08</h4><p>This style uses <strong>Google Font: Josefin Slab</strong> as a main font </p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+
+&lt;!-- EXTRA FONT FOR SLIDER --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+      
+    </div>
+  </div>
+
+ <br>
+
+  <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/9.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 09</h4><p>This style uses <strong>Google Font: Oswald</strong> as a main font </p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+
+&lt;!-- EXTRA FONT FOR SLIDER --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+      
+    </div>
+  </div>
+
+ <br>
+
+  <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/10.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 10</h4><p>This style uses <strong>Google Font: PT Sans</strong> as a main font </p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+      
+    </div>
+  </div>
+
+ <br>
+  <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/11.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 11</h4><p>This style uses <strong>Google Font: PT Sans</strong> as a main font </p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+      
+    </div>
+  </div>
+
+
+
+ <br>
+
+
+  <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/12.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 12</h4><p>This style uses <strong>Google Font: Open Sans</strong> as a main font </p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+      
+    </div>
+  </div>
+
+
+
+ <br>
+
+  <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/13.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 13</h4><p>This style uses <strong>Google Font: Open Sans</strong> as a main font </p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+      
+    </div>
+  </div>
+
+
+
+ <br>
+
+  <br>
+  <div class="row">
+    <div class="span5"><img src="assets/img/14.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 14</h4><p>This style uses <strong>Google Font: Open Sans</strong> as a main font </p>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+      
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+  
+
+
+
+
+<br><br>
+<div class="row">
+    <div class="span5"><img src="assets/img/15.jpg" alt=""></div>
+
+    <div class="span7">
+      <h4>Style 16</h4>
+
+      <pre class="prettyprint linenums"><code> &lt;!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE --&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'&gt;
+ &lt;link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+      
+    </div>
+  </div>
+
+<h2>Video Style Background</h2>
+
+<p>To add a video just go to youtube, select your video. Click in share, and copy the URL. Then go to your index-16.html file where you have the video and paste the URL from youtube embed code. (look at screenshot two). Click in the image to amplify it.</p>
+
+<div class="row">
+  <div class="span6"><img src="assets/img/embed.jpg" alt=""></div>
+  <div class="span6"><a href="assets/img/embed_r.jpg"><img src="assets/img/embed_r.jpg" alt=""></a></div>
+</div>
+
+  
+</section>
+
+
+
+
+
+
+
+
+
+
+<div class="bs-docs-separator"></div>
+
+<br><br>
+
+
+<section id="about_team">
+
+<h2>About & Team</h2>
+<p>The about image could be move with css</p>
+<br>
+<img src="assets/img/about.jpg" alt="">
+
+<br>
+<h4>How to move my image?</h4>
+<p>Use this code to move your image horizontally</p>
+<pre><code> .about_image {background-position-x: -180px;}</code></pre>
+
+<br><br><br><br>
+<h4>Team</h4>
+<p>The team section is divided into 4 custom columns</p>
+<img src="assets/img/team.jpg" alt="">
+<br>
+<br>
+
+<p>This is the complete list of icons that you can use in the team section hover</p>
+<pre class="prettyprint linenums"><code >&lt;li class="wordpress_icon"&gt;&lt;a href="#"&gt;&lt;i class="fa fa-wordpress fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="linkedin_icon"&gt;&lt;a href="#"&gt;&lt;i class="fa fa-linkedin fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="behance_icon"&gt;&lt;a href="#"&gt;&lt;i class="fa fa-behance-square fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="skype_icon"&gt;&lt;a href="#"&gt;&lt;i class="fa fa-skype fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="youtube_icon"&gt;&lt;a href="#"&gt;&lt;i class="fa fa-youtube-square fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="tumblr_icon"&gt;&lt;a href="#"&gt;&lt;i class="fa fa-tumblr fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="googlep_icon"&gt;&lt;a href="#"&gt;&lt;i class="fa fa-google-plus fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="github_icon"&gt;&lt;a href="#"&gt;&lt;i class="fa fa-github-alt fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="instagram_icon"&gt;&lt;a href="#"&gt;&lt;i class="fa fa-instagram fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="pinterest_icon"&gt;&lt;a href="#"&gt;&lt;i class="fa fa-pinterest fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</code></pre>
+
+
+<br><br>
+<h4>3 columns in team?</h4>
+<p>use this code if you want to have 3 columns instead of 4</p>
+
+<p>Go to your style.css file and search for <code>.team_item</code> the actual widh is 25% wich means that we could have 100/25 = 4 columns, to have 3 we must update this width
+value to 33,33% so we are going to have 100/33,33 = 3</p>
+
+<br>
+<h4>What about 2 columns?</h4>
+<p>Same here, update the width value to 50% and you will have 100/50 = 2 columns</p>
+
+
+
+
+
+</section>
+
+
+
+
+<hr class="bs-docs-separator">
+<br><br>
+
+
+<section id="portfolio">
+<h2>Portfolio</h2>
+<p>Anderson comes with a great portfolio style</p>
+<img src="assets/img/p1.jpg" alt="">
+<h4>Give user the posibility to change the columns</h4>
+<p>Anderson comes with a column buttons, this offer the posibility to the user to change the size of the columns. You can remove this buttons if you want and use only one sizes.</p>
+
+
+<h4>Columns in portfolio</h4>
+<p>Changing columns in portfolio is very simle, and you can make it with only one change of class.</p>
+
+<br>
+<h4>Two columns</h4>
+<p>To have 2 columns add the class <code>two_columns</code> to the <code>grid</code> wrapper like this:</p>
+
+This is the original code:
+
+<pre class="prettyprint linenums"><code>&lt;div class="grid animated" data-animation-target="10"&gt;</code></pre>
+
+<br>
+
+And you code should look like this to have two columns.
+
+<pre class="prettyprint linenums"><code>&lt;div class="grid animated two_columns" data-animation-target="10"&gt;</code></pre>
+
+
+<br>
+<h4>Three columns</h4>
+<p>Three columns is the default size of the grid, so, you don't need to add any class.</p>
+
+<br><br>
+<h4>Four columns</h4>
+<p>To have 2 columns add the class <code>four_columns</code> to the <code>grid</code> wrapper like this:</p>
+
+This is the original code:
+
+<pre class="prettyprint linenums"><code>&lt;div class="grid animated" data-animation-target="10"&gt;</code></pre>
+
+<br>
+
+And you code should look like this to have four columns.
+
+<pre class="prettyprint linenums"><code>&lt;div class="grid animated two_columns" data-animation-target="10"&gt;</code></pre>
+
+<div class="alert">  <h4>Ajax portfolio</h4>
+
+  If you click in the portfolio item and the slide dont brings the HTML do this:
+<br>
+ 1 -  First - Check that you portfolio item is linking to an existing HTML file.
+<br>2 - Second - If you are opening the file from your computer make sure that have Anderson folder in a local server.</div>
+</section>
+
+
+
+
+
+<div class="bs-docs-separator"></div><br><br>
+
+
+<section id="icons">
+  <h2>Icons</h2>
+<h4>How to change an icon?</h4>
+<p>As you can see <code>fa-twitter</code> is the name of the icon, you have to change the name to change the icon. Here you can see a complete list of icons, select the name and
+replace it.</p> 
+
+<pre class="prettyprint linenums"><code>&lt;i class="fa fa-twitter fa-2x"&gt;&lt;/i&gt;</code></pre>
+
+<p><a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/" target="_blank">The complete Font Awesome icon reference</a></p>
+
+
+<br>
+<h4>Size of the icon</h4>
+<code>&lt;i class="fa_icon icon-align-justify icon-3x"&gt;&lt;/i&gt;</code>
+
+<p>Has you can see the icon have a <code>fa-2x, fa-3x, fa-4x, or fa-5x classes.</code>. To change the size of an icon just change the number like</p>
+<p><code>fa-2x</code> <code>fa-3x</code> <code>fa-4x</code></p>
+
+<br>
+
+
+</section>
+
+
+
+<hr class="bs-docs-separator">
+
+
+
+<section id="shortcodes">
+<h2>Shortcodes</h2>
+
+<p>We have developed an entire section to shortcodes with examples and live demos. Please go to shortcodes.html in your download. You also have the sample code to copy and paste :)</p>
+<br><br>
+
+<h4>Contact Form Ready</h4>
+<p>Anderson comes with a send.php file that allows you to send emails through the contact form. All you have to do is put your email in line 18.</p>
+<p>Remember to put the send.php file in the same folder that the index.html file.<p>
+
+</section>
+            
+
+<hr class="bs-docs-separator">
+
+
+
+
+<section id="style">
+
+<h2>Skin colors </h2>
+<p>Anderson comes with beautiful skin colors, to change the skin go to style.css and change this line <code> @import url("css/skins/blue.css");</code></p>
+
+<p><code>Available skins colors: blue.css gray.css green.css midnight.css orange.css purple.css red.css yellow.css</code></p>
+
+
+<br><br>
+
+
+
+<h2>Custom.js</h2>
+<p>All the javascript is in the custom.js file. USe it to modify settings for Sliders, Portfolio, Twitter, etc.</p>
+
+
+
+
+<div class="row">
+  <div class="span12">
+    <h4>Twitter Feed</h4>
+   <pre class="prettyprint linenums">//Twitter feed
+
+$(document).ready(function() {
+ $('.tweet').twittie({
+            dateFormat: '%b. %d, %Y',
+            template: '&lt;a href="{{url}}"&gt;{{avatar}}&lt;/a&gt;{{tweet}} &lt;div class="date"&gt;by {{screen_name}} {{date}} &lt;/div&gt;',
+            username: 'envato',
+            count: 4,
+        });
+ });</pre>
+
+
+<p>Replace the <code>username</code> to your username.</p>
+  </div>
+
+</div>
+
+<br><br>
+
+
+</section>
+
+
+
+
+<section id="caro">
+  <h2>Carousel</h2>
+  <p>Anderson comes with a lot of carousel ready to use, if you want to create a custom ones, make sure that you are familiar with the carousel plugin, there is a site with a lot of demos and documentation that can make you the work a lot easier. <a href="http://www.owlcarousel.owlgraphic.com/index.html">http://www.owlcarousel.owlgraphic.com/index.html</a></p>
+</section>
+
+
+<div class="bs-docs-separator"></div>
+
+
+
+<section id="source"><h2>Source & Credits</h2>
+  <p>I've used the following images, icons or other files as listed.</p>
+  <ul>
+    
+    
+    <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap 3</a></li>
+    <li><a href="http://jquery.com" target="_blank">Jquery Library</a></li>
+    <li><a href="http://isotope.metafizzy.co/" target="_blank">Isotope</a></li>
+    <li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/" target="_blank">Jquery PrettyPhoto</a></li>
+    <li><a href="https://github.com/sonnyt/Tweetie" target="_blank">Jquery Tweets</a></li>
+    <li><a href="http://www.kelvinluck.com/2006/05/switch-stylesheets-with-jquery/" target="_blank">Styleswitcher</a></li>
+    <li><a href="http://owlgraphic.com/owlcarousel/" target="_blank">Carousel</a></li>
+    <li><a href="http://github.com/davist11/jQuery-One-Page-Nav" target="_blank">One Page Nav</a></li>
+    <li><a href="http://flesler.blogspot.com" target="_blank">Scroll to</a></li>
+    <li><a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848" target="_blank">Revolution Slider</a></li>
+
+ 
+      
+  </ul>
+
+  
+
+
+   <div class="bs-docs-separator"></div>
+
+
+<p>Images by <a href="http://www.flickr.com/photos/astragony/" target="_blank">Daniel Zedda</a></p>
+
+</section>
+
+
+
+
+
+
+ 
+      </div>
+    </div>
+
+  </div>
+
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>Thank you so much for purchasing this theme. Design and code by<a href="http://themeforest.net/user/breecode?ref=breecode" target="_blank"> breecode</a></p>
+        <p>You can find this theme only in <a href="http://www.themeforest.net?ref=breecode" target="_blank">Themeforest</a></p>
+        
+      </div>
+    </footer>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+<script src="assets/js/bootstrap-tooltip.js"></script>
+<script src="assets/js/bootstrap-popover.js"></script>
+<script src="assets/js/bootstrap-button.js"></script>
+<script src="assets/js/bootstrap-collapse.js"></script>
+<script src="assets/js/bootstrap-carousel.js"></script>
+<script src="assets/js/bootstrap-typeahead.js"></script>
+<script src="assets/js/bootstrap-affix.js"></script>
+<script src="assets/js/application.js"></script>
+    
+
+
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.nav.js"></script>
+
+
+
+ <script type="text/javascript" language="javascript">
+
+  $(function () {
+    $('#scrollnav').onePageNav();
+    
+    var $win = $(window);
+
+    $win.scroll(function () {
+      if ($win.scrollTop() > 260)
+        $(".custom_nav").css({
+        position : 'fixed',
+        // top : '20px'
+      });
+
+    else if ($win.scrollTop() < 400)
+        $(".custom_nav").css({
+        position : 'relative',
+      //  top : '20px'
+      });
+    });
+  });
+    </script>
+
+
+</body>
+</html>
