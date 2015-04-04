@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -75,7 +76,7 @@
 				<nav class="main_nav white">
 					<ul>
 						<li class="active"><a href="#top">Inicio</a></li>
-						<li><a href="#about-us">Bienvenidos </a></li>
+						<li><a href="#about-us">Bienvenidos</a></li>
 						<li><a href="#services">Sobre Nosotros</a></li>
 						<li><a href="#portfolio">Nuestros Productos</a></li>
 						<li><a href="#process_one">Process</a></li>
@@ -96,14 +97,14 @@
 	<div class="responsive_nav">
 		<div class="mobileAreaMenu">
 			<ul>
-				<li class="active"><a href="#top">Home</a></li>
-				<li><a href="#about-us">About </a></li>
-				<li><a href="#services">Services</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
+				<li class="active"><a href="#top">Inicio</a></li>
+				<li><a href="#about-us">Bienvenidos</a></li>
+				<li><a href="#services">Sobre Nosotros</a></li>
+				<li><a href="#portfolio">Nuestros Productos</a></li>
 				<li><a href="#process_one">Process</a></li>
 				<li><a href="#faq">FAQ</a></li>
 				<li><a href="#blog">Blog</a></li>
-				<li><a href="#footer">Contact</a></li>
+				<li><a href="#footer">Contáctenos</a></li>
 				<li><a href="shortcodes.html" class="external">Shortcodes <span class="label label-danger">New</span></a></li>
 			</ul>
 		</div><!--mobileAreaMenu-->
@@ -254,11 +255,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="logo_welcome">
-					<img src="images/logo-anderson.png" alt="">
-				</div>
+				<div class="page_title">
+					<h1 class="title">VIVE EL SABOR DE <strong>PANAMÁ</strong></h1>
+				</div><!--page-title-->
+					
 				<div class="welcome-text">
-					<p>It’s important to build a personal brand because it’s the only thing you’re going to have. Your reputation online, and in the new business world is pretty much the game.</p>
+					<p>Panamá… la tierra donde puedes contemplar el amanecer en el Pacífico y sumergirte en el Atlántico al atardecer; gozar de un  día de pesca y experimentar la vida de los nativos en cualquiera de las 365 islas del Archipiélago de San Blas. Disfrutar la calidez de un día soleado, la fresca brisa de las montañas, las más de mil especies de aves y una incontable variedad de animales y plantas.</p>
 				</div>
 			</div>
 		</div>
@@ -274,8 +276,8 @@
 		<div class="row">
 			<div class="col-md-12 animated" data-animation-target="2">
 				<div class="page_title">
-					<h1 class="title">WANT TO KNOW US BETTER? <strong>WE DON’T BITE</strong></h1>
-					<h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
+					<h1 class="title">SOBRE <strong>NOSOTROS</strong></h1>
+					<h2 class="page_subtitle">¿A QUÉ NOS DEDICAMOS?  ¿QUÉ NOS APASIONA?1</h2>
 				</div><!--page-title-->
 					
 			</div>
@@ -289,23 +291,16 @@
 				
 					<div class="col-md-6 col-md-offset-6">
 						<div class="about_content animated" data-animation-target="4">
-							<h2 class="about_title">We are pretty handy at digital</h2>
+							<h2 class="about_title">Acerca de Tasty Panama</h2>
 
-							<p>These new cases are as colorful and well made as iPhone 5c because they were designed right alongside it. The fit is impeccable. And they come in six different colors, so you can create 30 bright combinations. These new cases are as colorful and well made as iPhone 5c because they were designed right alongside it. The fit is impeccable. And they </p>
+							<p>Somos una empresa que busca resaltar el trabajo de nuestros artesanos plasmándolos en productos de alta calidad que lleven el nombre de Panamá fuera de sus fronteras.</p>
 
-							<div class="divider_padding"></div>
+                                                        <h2 class="about_title">¿Quienes somos?</h2>
 
-							<div class="skill">
-					        	<h4>SEO</h4>
-								<div class="skillbar"><div class="bar"><span class="percent">60%</span></div></div>
-								<h4>Jquery</h4>
-								<div class="skillbar"><div class="bar"><span class="percent">80%</span></div></div>
-								<h4>Wordpress</h4>
-								<div class="skillbar"><div class="bar"><span class="percent">95%</span></div></div>
-								<h4>HTML5</h4>
-								<div class="skillbar"><div class="bar"><span class="percent">90%</span></div></div>
-								<h4>CSS</h4>
-								<div class="skillbar"><div class="bar"><span class="percent">80%</span></div></div>
+							<p>Tasty Panama colabora con los artesanos en el diseño de sus productos que son elaborados con materiales o ingredientes de nuestras tierras, siguiendo estándares de calidad y buen gusto para adaptarlos al mercado local y/o a los turistas que visitan nuestro pais y desean llevar consigo recuerdos que hablen gratamente del sabor de Panamá.</p>
+
+<p>Tasty Panamá desea resaltar a través de sus diseños la riqueza natural de nuestro Panamá, utilizando artesanos y materiales panameños.</p>
+							
 							</div><!--skills-->
 						</div>	<!--about_content-->
 					</div><!--col-md-6-->
@@ -329,8 +324,10 @@
 		<div class="row">
 			<div class="col-md-12 animated"  data-animation-target="5">
 				<div class="page_title">
-					<h1 class="title">This is our great <strong>team</strong></h1>
-					<h2 class="page_subtitle">The right people in the right job</h2>
+					<h1 class="title">NUESTROS <strong>ARTESANOS</strong></h1>
+					<h2 class="page_subtitle">Tasty Panama ha identificado a los mejores artesanos a lo largo de todo el territorio de Panamá, cada uno trabajando en las técnicas, estilos y con materiales propios de sus entornos, logrando así apoyar el desarrollo sostenible de sus familias y resaltar nuestro país a través de su cultura.</h2>
+<br/>
+<h2 class="page_subtitle">Conozcan a algunos de nuestros artistas:</h2>
 				</div><!--page-title-->
 			</div>
 		</div><!--row-->
@@ -343,16 +340,9 @@
 		<!-- *** TEAM PERSON 1 *** -->
 		<div class="team_item" style="background-image: url('http://placehold.it/730x480')">
 			<div class="team_description">
-				<h2>Mike Smith</h2>
-				<p class="job">Founder - Developer</p>
+				<h2>Juan Soto</h2>
+				<p class="job">El Valle de Antón, República de Panamá</p>
 			</div><!--team_description-->
-			<div class="team_over">
-				<ul class="social_team">
-					<li class="facebook_icon"><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-					<li class="twitter_icon"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-					<li class="dribble_icon"><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>
-				</ul>
-			</div><!--team_over-->
 		</div><!--team_item-->
 		<!-- *** TEAM PERSON 1 *** -->
 
@@ -360,16 +350,9 @@
 		<!-- *** TEAM PERSON 2 *** -->
 		<div class="team_item" style="background-image: url('http://placehold.it/730x480')">
 			<div class="team_description">
-				<h2>Trevor Wayne</h2>
-				<p class="job">Designer - Developer</p>
+				<h2>Eda Ruth Soto</h2>
+				<p class="job">Ciudad de Panamá, Panamá</p>
 			</div><!--team_description-->
-			<div class="team_over">
-				<ul class="social_team">
-					<li class="facebook_icon"><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-					<li class="twitter_icon"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-					<li class="dribble_icon"><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>
-				</ul>
-			</div><!--team_over-->
 		</div><!--team_item-->
 		<!-- *** TEAM PERSON 2 *** -->
 
@@ -377,16 +360,9 @@
 		<!-- *** TEAM PERSON 3 *** -->
 		<div class="team_item" style="background-image: url('http://placehold.it/730x480')">
 			<div class="team_description">
-				<h2>John Ruth</h2>
-				<p class="job">Marketing</p>
+				<h2>Lorenzo Martínez</h2>
+				<p class="job">Penonomé, República de Panamá</p>
 			</div><!--team_description-->
-			<div class="team_over">
-				<ul class="social_team">
-					<li class="facebook_icon"><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-					<li class="twitter_icon"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-					<li class="dribble_icon"><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>
-				</ul>
-			</div><!--team_over-->
 		</div><!--team_item-->
 		<!-- *** TEAM PERSON 3 *** -->
 
@@ -394,16 +370,9 @@
 		<!-- *** TEAM PERSON 4 *** -->
 		<div class="team_item" style="background-image: url('http://placehold.it/730x480')">
 			<div class="team_description">
-				<h2>Sara Brother</h2>
-				<p class="job">Designer</p>
+				<h2>Susan Batista</h2>
+				<p class="job">Chitré, República de Panamá</p>
 			</div><!--team_description-->
-			<div class="team_over">
-				<ul class="social_team">
-					<li class="facebook_icon"><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-					<li class="twitter_icon"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-					<li class="dribble_icon"><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>
-				</ul>
-			</div><!--team_over-->
 		</div><!--team_item-->
 		<!-- *** TEAM PERSON 4 *** -->
 		
@@ -417,365 +386,13 @@
 
 
 
-<!-- *** SERVICES START *** -->
-<div id="services" class="section nobottom animated" data-animation-target="7">
-	<div class="container">
-		<div class="row">
-				<div class="col-md-12">
-					<div id="service_tab_triggers">
-						<ul>
-							<li class="active"><a href="#service_1"><i class="fa fa-rocket fa-4x"></i></a></li>
-							<li><a href="#service_2"><i class="fa fa-gear fa-4x"></i></a></li>
-							<li><a href="#service_3"><i class="fa fa-cloud-upload fa-4x"></i></a></li>
-							<li><a href="#service_4"><i class="fa fa-briefcase fa-4x"></i></a></li>
-							<li class="clear"></li>
-						</ul>
-					</div>
-				</div>
-		</div>
-	</div><!--container-->
-
-
-
-
-
-
-<!-- *** START OF THE FIRST(01) TAB CONTENT *** -->
-	<div class="service_wrapper animated" id="service_1" data-animation-target="8">
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-				<div class="page_title">
-					<h1 class="title">welcome we are <strong>Anderson</strong></h1>
-					<h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
-				</div><!--page-title-->
-			</div>
-			</div>
-		</div>
-
-		<div class="service_custom_column">
-			<div class="service_icon"><div class="float-shadow"><img src="images/icons/39.png" alt=""></div></div>
-			<h2>15 Home Variants</h2>
-			<p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-		</div><!--service_custom_column-->
-
-		<div class="service_custom_column">
-			<div class="service_icon"><div class="float-shadow"><img src="images/icons/3.png" alt=""></div></div>
-			<h2>Bootstrap 3</h2>
-			<p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-		</div><!--service_custom_column-->
-
-		<div class="service_custom_column">
-			<div class="service_icon"><div class="float-shadow"><img src="images/icons/40.png" alt=""></div></div>
-			<h2>7 different menus</h2>
-			<p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-		</div><!--service_custom_column-->
-
-		<div class="service_custom_column">
-			<div class="service_icon"><div class="float-shadow"><img src="images/icons/23.png" alt=""></div></div>
-			<h2>100% Responsive</h2>
-			<p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-		</div><!--service_custom_column-->
-
-		<div class="service_custom_column">
-			<div class="service_icon"><div class="float-shadow"><img src="images/icons/85.png" alt=""></div></div>
-			<h2>Retina Ready</h2>
-			<p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-		</div><!--service_custom_column-->
-
-			
-		<div class="service_custom_column">
-			<div class="service_icon"><div class="float-shadow"><img src="images/icons/38.png" alt=""></div></div>
-			<h2>Isotope portfolio</h2>
-			<p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-		</div><!--service_custom_column-->
-
-		<div class="service_custom_column">
-			<div class="service_icon"><div class="float-shadow"><img src="images/icons/82.png" alt=""></div></div>
-			<h2>FontAwesome Icons</h2>
-			<p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-		</div><!--service_custom_column-->
-
-		<div class="service_custom_column">
-			<div class="service_icon"><div class="float-shadow"><img src="images/icons/43.png" alt=""></div></div>
-			<h2>Revolution slider</h2>
-			<p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-		</div><!--service_custom_column-->
-
-		<div class="service_custom_column">
-			<div class="service_icon"><div class="float-shadow"><img src="images/icons/7.png" alt=""></div></div>
-			<h2>Ajax Portfolio</h2>
-			<p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-		</div><!--service_custom_column-->
-
-		<div class="service_custom_column">
-			<div class="service_icon"><div class="float-shadow"><img src="images/icons/55.png" alt=""></div></div>
-			<h2>Parallax Scrolling</h2>
-			<p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-		</div><!--service_custom_column-->
-
-
-		<div class="clear"></div>
-	</div><!--Service Wrapper Tab 1-->
-	<!-- *** END OF THE FIRST(01) TAB CONTENT *** -->
-
-
-
-
-
-
-	<!-- *** START OF THE SECOND(02) TAB CONTENT *** -->
-	<div class="service_wrapper style2" id="service_2">
-
-		<div class="container">
-			<div class="row">
-				
-				<div class="col-md-12">
-					<div class="page_title">
-						<h1 class="title">Let's build the  <strong>next web</strong></h1>
-						<h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
-					</div><!--page-title-->
-				</div><!--col-md-12-->
-
-
-
-				<div class="service_item_wrapper">	
-					<div class="col-md-7">
-						<h1>Enjoy 7 different menu styles</h1>
-						<span class="subtitle">Really easy to use</span>
-						<p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
-					</div><!--col-md-7-->
-					<div class="col-md-5"><img src="http://placehold.it/490x330" alt=""></div><!--col-md-5-->
-					<div class="clear"></div>
-				</div><!--service_item_wrapper-->
-
-
-				<div class="service_item_wrapper">	
-					<div class="col-md-7">
-						<h1>More than 14 Home Variants</h1>
-						<span class="subtitle">Impact your visitors</span>
-						<p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
-					</div><!--col-md-7-->
-					<div class="col-md-5"><img src="http://placehold.it/490x330" alt=""></div><!--col-md-5-->
-					<div class="clear"></div>
-				</div><!--service_item_wrapper-->
-
-				<div class="service_item_wrapper">	
-					<div class="col-md-7">
-						<h1>Fully Responsive & Retina Ready</h1>
-						<span class="subtitle">Works great en every device</span>
-						<p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
-					</div><!--col-md-7-->
-					<div class="col-md-5"><img src="http://placehold.it/490x330" alt=""></div><!--col-md-5-->
-					<div class="clear"></div>
-				</div><!--service_item_wrapper-->
-
-				<div class="service_item_wrapper">	
-					<div class="col-md-7">
-						<h1>Need Support? We are here to help</h1>
-						<span class="subtitle">We've got you covered</span>
-						<p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
-					</div><!--col-md-7-->
-					<div class="col-md-5"><img src="http://placehold.it/490x330" alt=""></div><!--col-md-5-->
-					<div class="clear"></div>
-				</div><!--service_item_wrapper-->
-
-
-			</div><!--row-->
-		</div><!--container-->
-		<div class="clear"></div>
-	</div><!--services_wraper_style2 ID 2-->
-	<!-- *** END OF THE SECOND(02) TAB CONTENT *** -->
-	
-
-
-
-
-
-	<!-- *** START OF THE THIRD(03) TAB CONTENT *** -->
-	<div class="service_wrapper style3 hi-icon-effect-1 hi-icon-effect-1a" id="service_3">
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="page_title">
-						<h1 class="title">This is a really nice<strong> h1 heading</strong></h1>
-						<h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
-					</div><!--page-title-->
-				</div><!--col-md-12-->
-
-
-				<div class="col-md-4">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa  fa-mobile fa-3x"></i></a></div>
-						<h2>Fully Responsive</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet doloribus dignissimos optio fugiat, voluptate incidunt unde voluptatibus soluta officia quam quasi porro, nulla nisi quis dolores in, esse expedita.</p>
-					</div>
-				</div><!--col-md-4-->
-				<div class="col-md-4">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-heart  fa-3x"></i></a></div>
-						<h2>Bootstrap 3</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet doloribus dignissimos optio fugiat, voluptate incidunt unde voluptatibus soluta officia quam quasi porro, nulla nisi quis dolores in, esse expedita.</p>
-					</div>
-				</div><!--col-md-4-->
-				<div class="col-md-4">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-support  fa-3x"></i></a></div>
-						<h2>A+ Free Support </h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet doloribus dignissimos optio fugiat, voluptate incidunt unde voluptatibus soluta officia quam quasi porro, nulla nisi quis dolores in, esse expedita.</p>
-					</div>
-				</div><!--col-md-4-->
-				<div class="col-md-4">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-eye  fa-3x"></i></a></div>
-						<h2>Retina Ready</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet doloribus dignissimos optio fugiat, voluptate incidunt unde voluptatibus soluta officia quam quasi porro, nulla nisi quis dolores in, esse expedita.</p>
-					</div>
-				</div><!--col-md-4-->
-				<div class="col-md-4">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-flash  fa-3x"></i></a></div>
-						<h2>Ajax Portfolio</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet doloribus dignissimos optio fugiat, voluptate incidunt unde voluptatibus soluta officia quam quasi porro, nulla nisi quis dolores in, esse expedita.</p>
-					</div>
-				</div><!--col-md-4-->
-				<div class="col-md-4">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-rocket  fa-3x"></i></a></div>
-						<h2>Revolution Slider</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet doloribus dignissimos optio fugiat, voluptate incidunt unde voluptatibus soluta officia quam quasi porro, nulla nisi quis dolores in, esse expedita.</p>
-					</div>
-				</div><!--col-md-4-->
-
-			</div><!--row-->
-		</div><!--container-->
-		<div class="clear"></div>
-	</div><!--Service Wrapper Tab 1-->
-	<!-- *** END OF THE THIRD(03) TAB CONTENT *** -->
-
-
-
-
-
-
-
-	<!-- *** START OF THE THIRD(03) TAB CONTENT *** -->
-	<div class="service_wrapper style4 hi-icon-effect-1 hi-icon-effect-1a" id="service_4">
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="page_title">
-						<h1 class="title">welcome we are <strong>Anderson</strong></h1>
-						<h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
-					</div><!--page-title-->
-				</div><!--col-md-12-->
-
-
-				<div class="col-md-3">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-eye fa-2x"></i></a></div>
-						<h2>Retina Ready</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-					</div>
-				</div><!--col-md-3-->
-				<div class="col-md-3">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-heart fa-2x"></i></a></div>
-						<h2>Bootstrap 3</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-					</div>
-				</div><!--col-md-3-->
-				<div class="col-md-3">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-mobile fa-2x"></i></a></div>
-						<h2>100% Responsive</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-					</div>
-				</div><!--col-md-3-->
-				<div class="col-md-3">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-support fa-2x"></i></a></div>
-						<h2>Amazing Support</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-					</div>
-				</div><!--col-md-3-->
-
-				<div class="col-md-3">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-css3  fa-2x"></i></a></div>
-						<h2>Css Animations</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-					</div>
-				</div><!--col-md-3-->
-				<div class="col-md-3">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-exchange fa-2x"></i></a></div>
-						<h2>Carousel</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-					</div>
-				</div><!--col-md-3-->
-				<div class="col-md-3">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-gear fa-2x"></i></a></div>
-						<h2>Preloader</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-					</div>
-				</div><!--col-md-3-->
-				<div class="col-md-3">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-dollar  fa-2x"></i></a></div>
-						<h2>Pricing Tables</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-					</div>
-				</div><!--col-md-3-->
-
-				<div class="col-md-3">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-pencil  fa-2x"></i></a></div>
-						<h2>Color Schemes</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-					</div>
-				</div><!--col-md-3-->
-				<div class="col-md-3">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-user  fa-2x"></i></a></div>
-						<h2>Easy to use</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-					</div>
-				</div><!--col-md-3-->
-				<div class="col-md-3">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-thumbs-o-up fa-2x"></i></a></div>
-						<h2>Hero Backgrounds</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-					</div>
-				</div><!--col-md-3-->
-				<div class="col-md-3">
-					<div class="service_item_wrapper">					
-						<div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-wrench  fa-2x"></i></a></div>
-						<h2>Documentation</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-					</div>
-				</div><!--col-md-3-->
-
-			</div><!--row-->
-		</div><!--container-->
-		<div class="clear"></div>
-	</div><!--Service Wrapper Tab 1-->
-	<!-- *** END OF THE THIRD(03) TAB CONTENT *** -->
-
-</div>
-<!-- *** SERVICES END *** -->
 
 
 
 
 
 <!-- *** PARALLAX START *** -->
-<div id="video_parallax" class="parallax player"  data-property="{videoURL:'http://youtu.be/p74VWuBJSS0',containment:'#video_parallax',startAt:0,mute:true,autoPlay:false, showControls:true	, loop:true, opacity:1}" style="background-image: url(http://placehold.it/1920x1080);">
+<div id="video_parallax" class="parallax player"  data-property="{videoURL:'https://www.youtube.com/watch?v=OXrvP6SdPUA',containment:'#video_parallax',startAt:0,mute:true,autoPlay:false, showControls:true	, loop:true, opacity:1}" style="background-image: url(http://placehold.it/1920x1080);">
 		<div class="parallax_over">
 			<div class="container">
 				<div class="row">				
