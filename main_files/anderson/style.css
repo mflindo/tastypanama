@@ -67,7 +67,7 @@ Available skins colors: blue.css gray.css green.css midnight.css orange.css purp
 =================================================*/
 
 body {
-	font-family: 'Open Sans', Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "adobe-caslon-pro", serif; 
    	font-size:15px;
    	color: #9c9c9c;
    	line-height: 28px;
@@ -218,10 +218,14 @@ header {
 .main_nav {float: right; margin-top: 28px; }
 .main_nav li {
 	float: left; 
+	/*	
 	text-transform: uppercase;
+	*/
 	font-size:13px; 
 	margin-right:38px;
+	/*	
 	font-weight: bolder;
+	*/
 	z-index: 1;
 	list-style: none;
 	position: relative;
@@ -295,17 +299,17 @@ header.small .social_nav li i {padding: 20px;}
 .transparent_menu .social_nav li:hover i {color: #161616;}
 .transparent_menu .social_nav li:hover {background: white;}
 header.small.transparent_menu {background-color: rgba(255,255,255, 1); border-bottom: 1px solid #F5F5F5;}
-header.small.transparent_menu .social_nav i {color:#AFAFAF;}
-header.small.transparent_menu li a {color: #B8B8B8;}
-header.small.transparent_menu .social_nav .menu_trigger i {color:white;}
+header.small.transparent_menu .social_nav i {color:white;}
+header.small.transparent_menu li a {color: white;}
+header.small.transparent_menu .social_nav .menu_trigger i {color:green;}
 header.small.transparent_menu  .main_nav li.active a, header.small.transparent_menu  .main_nav li a:hover {color:#3c3c3c;}
 
 
 /* HEADER STYLE 02: TRANSPARENT TO DARK  */
 
-header.small.transparent_menu.dark {background-color: #232323;border-bottom: 1px solid rgb(46, 46, 46);}
-header.small.transparent_menu.dark .social_nav li i {border-left: 1px solid rgb(46,46,46);}
-header.small.transparent_menu.dark .main_nav li.active a, header.small.transparent_menu.dark .main_nav li a:hover {color:white;}
+header.small.transparent_menu.dark {background-color: #9ecb3b;border-bottom: 1px solid rgb(255,255,255);}
+header.small.transparent_menu.dark .social_nav li i {border-left: 1px solid rgb(255,255,255);}
+header.small.transparent_menu.dark .main_nav li.active a, header.small.transparent_menu.dark .main_nav li a:hover {color:#3c3c3c;}
 
 
 /* HEADER STYLE 03: WHITE  */

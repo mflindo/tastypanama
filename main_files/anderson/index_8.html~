@@ -16,6 +16,10 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
+<!-- ADOBE TYPEKIT CASLON FONT -->
+<script src="//use.typekit.net/hni4sdy.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
 <!-- EXTRA FONT FOR SLIDER -->
 <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600' rel='stylesheet' type='text/css'>
 
@@ -46,7 +50,7 @@
 
 
 <!-- *** HEADER STARTS *** -->
-<header class="transparent_menu">
+<header class="transparent_menu dark">
 
 	<div class="container-fluid">
 		<div class="row">
@@ -75,14 +79,14 @@
 				<!-- *** MAIN NAVIGATION STARTS *** -->
 				<nav class="main_nav white">
 					<ul>
-						<li class="active"><a href="#top">Inicio</a></li>
-						<li><a href="#about-us">Bienvenidos</a></li>
-						<li><a href="#services">Sobre Nosotros</a></li>
-						<li><a href="#portfolio">Nuestros Productos</a></li>
+						<li class="active"><a href="#top">inicio</a></li>
+						<li><a href="#about-us">bienvenidos</a></li>
+						<li><a href="#services">sobre Nosotros</a></li>
+						<li><a href="#portfolio">nuestros productos</a></li>
 						<li><a href="#process_one">Process</a></li>
 						<li><a href="#faq">FAQ</a></li>
 						<li><a href="#blog">Blog</a></li>
-						<li><a href="#footer">Contáctenos</a></li>
+						<li><a href="#footer">contáctenos</a></li>
 						<li><a href="shortcodes.html" class="external">Shortcodes <span class="label label-danger">New</span></a></li>
 					</ul>
 				</nav>
@@ -314,7 +318,122 @@
 </div>
 <!-- *** ABOUT US END *** -->
 
+<!-- *** PARALLAX START *** -->
+<div class="parallax" style="background-image: url(http://placehold.it/1920x1080);">
+		<div class="parallax_over">
+			<div class="container animated"  data-animation-target="15">
+				<div class="row">
 
+
+					<!-- *** PRICING COLUMN START *** -->
+					<div class="col-md-3">
+						<div class="pricing-table">
+							<div class="pricing_header">
+								<h1>Basic</h1>
+							</div>
+							<div class="pricing_sub_header">
+								<h1>$3.99<span>/Monthly</span></h1>
+							</div>
+
+							<ul class="features">
+								<li>Free Live Support</li>
+								<li>Unlimited Users</li>
+								<li>No Time Tracking</li>
+								<li>Free setup</li>
+							</ul><!-- end .features -->
+
+							<div class="pricing_footer">
+								<a href="#link" class="btn btn-primary">Purchase Now</a>
+							</div>
+						</div><!--pricing-table-->
+
+					</div><!--col-md-3-->
+					<!-- *** PRICING COLUMN END *** -->
+
+
+					<!-- *** PRICING COLUMN START *** -->
+					<div class="col-md-3">
+						<div class="pricing-table">
+							<div class="pricing_header">
+								<h1>Platinum</h1>
+							</div>
+							<div class="pricing_sub_header">
+								<h1>$5.99<span>/Monthly</span></h1>
+							</div>
+
+							<ul class="features">
+								<li>Free Live Support</li>
+								<li>Unlimited Users</li>
+								<li>No Time Tracking</li>
+								<li>Free setup</li>
+							</ul><!-- end .features -->
+
+							<div class="pricing_footer">
+								<a href="#link" class="btn btn-primary">Purchase Now</a>
+							</div>
+						</div><!--pricing-table-->
+
+					</div><!--col-md-3-->
+					<!-- *** PRICING COLUMN END *** -->
+
+
+					<!-- *** PRICING COLUMN START *** -->
+					<div class="col-md-3">
+						<div class="pricing-table">
+							<div class="pricing_header">
+								<h1>Diamond</h1>
+							</div>
+							<div class="pricing_sub_header">
+								<h1>$9.99<span>/Monthly</span></h1>
+							</div>
+
+							<ul class="features">
+								<li>Free Live Support</li>
+								<li>Unlimited Users</li>
+								<li>No Time Tracking</li>
+								<li>Free setup</li>
+							</ul><!-- end .features -->
+
+							<div class="pricing_footer">
+								<a href="#link" class="btn btn-primary">Purchase Now</a>
+							</div>
+						</div><!--pricing-table-->
+
+					</div><!--col-md-3-->
+					<!-- *** PRICING COLUMN END *** -->
+
+
+					<!-- *** PRICING COLUMN START *** -->
+					<div class="col-md-3">
+						<div class="pricing-table">
+							<div class="pricing_header">
+								<h1>Titanium</h1>
+							</div>
+							<div class="pricing_sub_header">
+								<h1>$19.99<span>/Monthly</span></h1>
+							</div>
+
+							<ul class="features">
+								<li>Free Live Support</li>
+								<li>Unlimited Users</li>
+								<li>No Time Tracking</li>
+								<li>Free setup</li>
+							</ul><!-- end .features -->
+
+							<div class="pricing_footer">
+								<a href="#link" class="btn btn-primary">Purchase Now</a>
+							</div>
+						</div><!--pricing-table-->
+
+					</div><!--col-md-3-->
+					<!-- *** PRICING COLUMN END *** -->
+
+
+				</div>
+			</div>
+		</div><!--parallax_over-->
+</div>
+<!-- *** PARALLAX END *** -->
 
 
 <!-- *** TEAM START *** -->
@@ -791,122 +910,7 @@
 
 
 
-<!-- *** PARALLAX START *** -->
-<div class="parallax" style="background-image: url(http://placehold.it/1920x1080);">
-		<div class="parallax_over">
-			<div class="container animated"  data-animation-target="15">
-				<div class="row">
 
-
-					<!-- *** PRICING COLUMN START *** -->
-					<div class="col-md-3">
-						<div class="pricing-table">
-							<div class="pricing_header">
-								<h1>Basic</h1>
-							</div>
-							<div class="pricing_sub_header">
-								<h1>$3.99<span>/Monthly</span></h1>
-							</div>
-
-							<ul class="features">
-								<li>Free Live Support</li>
-								<li>Unlimited Users</li>
-								<li>No Time Tracking</li>
-								<li>Free setup</li>
-							</ul><!-- end .features -->
-
-							<div class="pricing_footer">
-								<a href="#link" class="btn btn-primary">Purchase Now</a>
-							</div>
-						</div><!--pricing-table-->
-
-					</div><!--col-md-3-->
-					<!-- *** PRICING COLUMN END *** -->
-
-
-					<!-- *** PRICING COLUMN START *** -->
-					<div class="col-md-3">
-						<div class="pricing-table">
-							<div class="pricing_header">
-								<h1>Platinum</h1>
-							</div>
-							<div class="pricing_sub_header">
-								<h1>$5.99<span>/Monthly</span></h1>
-							</div>
-
-							<ul class="features">
-								<li>Free Live Support</li>
-								<li>Unlimited Users</li>
-								<li>No Time Tracking</li>
-								<li>Free setup</li>
-							</ul><!-- end .features -->
-
-							<div class="pricing_footer">
-								<a href="#link" class="btn btn-primary">Purchase Now</a>
-							</div>
-						</div><!--pricing-table-->
-
-					</div><!--col-md-3-->
-					<!-- *** PRICING COLUMN END *** -->
-
-
-					<!-- *** PRICING COLUMN START *** -->
-					<div class="col-md-3">
-						<div class="pricing-table">
-							<div class="pricing_header">
-								<h1>Diamond</h1>
-							</div>
-							<div class="pricing_sub_header">
-								<h1>$9.99<span>/Monthly</span></h1>
-							</div>
-
-							<ul class="features">
-								<li>Free Live Support</li>
-								<li>Unlimited Users</li>
-								<li>No Time Tracking</li>
-								<li>Free setup</li>
-							</ul><!-- end .features -->
-
-							<div class="pricing_footer">
-								<a href="#link" class="btn btn-primary">Purchase Now</a>
-							</div>
-						</div><!--pricing-table-->
-
-					</div><!--col-md-3-->
-					<!-- *** PRICING COLUMN END *** -->
-
-
-					<!-- *** PRICING COLUMN START *** -->
-					<div class="col-md-3">
-						<div class="pricing-table">
-							<div class="pricing_header">
-								<h1>Titanium</h1>
-							</div>
-							<div class="pricing_sub_header">
-								<h1>$19.99<span>/Monthly</span></h1>
-							</div>
-
-							<ul class="features">
-								<li>Free Live Support</li>
-								<li>Unlimited Users</li>
-								<li>No Time Tracking</li>
-								<li>Free setup</li>
-							</ul><!-- end .features -->
-
-							<div class="pricing_footer">
-								<a href="#link" class="btn btn-primary">Purchase Now</a>
-							</div>
-						</div><!--pricing-table-->
-
-					</div><!--col-md-3-->
-					<!-- *** PRICING COLUMN END *** -->
-
-
-				</div>
-			</div>
-		</div><!--parallax_over-->
-</div>
-<!-- *** PARALLAX END *** -->
 
 
 
