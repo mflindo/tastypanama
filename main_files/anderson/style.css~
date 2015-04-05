@@ -299,7 +299,7 @@ header.small .social_nav li i {padding: 20px;}
 .transparent_menu .social_nav li:hover i {color: #161616;}
 .transparent_menu .social_nav li:hover {background: white;}
 header.small.transparent_menu {background-color: rgba(255,255,255, 1); border-bottom: 1px solid #F5F5F5;}
-header.small.transparent_menu .social_nav i {color:#AFAFAF;}
+header.small.transparent_menu .social_nav i {color:white;}
 header.small.transparent_menu li a {color: white;}
 header.small.transparent_menu .social_nav .menu_trigger i {color:green;}
 header.small.transparent_menu  .main_nav li.active a, header.small.transparent_menu  .main_nav li a:hover {color:#3c3c3c;}
@@ -307,7 +307,7 @@ header.small.transparent_menu  .main_nav li.active a, header.small.transparent_m
 
 /* HEADER STYLE 02: TRANSPARENT TO DARK  */
 
-header.small.transparent_menu.dark {background-color: #9ecb3b;border-bottom: 1px solid rgb(255,255,255);}
+header.small.transparent_menu.dark {background-color: #9ecb3b;border-bottom: 1px solid rgb(158,203,59);}
 header.small.transparent_menu.dark .social_nav li i {border-left: 1px solid rgb(255,255,255);}
 header.small.transparent_menu.dark .main_nav li.active a, header.small.transparent_menu.dark .main_nav li a:hover {color:#3c3c3c;}
 
@@ -436,8 +436,8 @@ header.center_style.dark.small .social_nav li:hover i {color:white;}
 5 - WELCOME
 =================================================*/
 
-#welcome {background-color: #F7F7F7; font-size: 24px; font-weight: lighter; text-align: center; line-height: 40px; padding:100px 0px;}
-.welcome-text { width: 78%; text-align: center; margin: 0 auto; margin-top:50px;}
+#welcome {background-color: #0099e4; color: white; font-size: 24px; font-weight: lighter; text-align: center; line-height: 40px; padding:100px 0px;}
+.welcome-text { width: 78%; text-align: center; color: white; margin: 0 auto; margin-top:50px;}
 
 /*=================================================
 6 - ABOUT US
@@ -456,7 +456,10 @@ width: 50%;}
 =================================================*/
 .page_title { margin-bottom:100px;}
 .title {font-size:35px!important; text-align: center; text-transform: uppercase; line-height: 45px; letter-spacing: 3px; font-weight: lighter;margin-bottom:15px;}
+.title_welcome {font-size:35px!important; color: white; text-align: center; text-transform: uppercase; line-height: 45px; letter-spacing: 3px; font-weight: lighter;margin-bottom:15px;}
 .page_subtitle {color:#909090; text-align: center; font-size:18px; line-height: 30px; font-weight: lighter;margin: 0; }
+.title_parallax {font-size:35px!important; color: white; text-align: center; text-transform: uppercase; line-height: 45px; letter-spacing: 3px; font-weight: lighter;margin-bottom:15px;}
+.page_subtitle_parallax {color: white; text-align: center; font-size:18px; line-height: 30px; font-weight: lighter;margin: 0; }
 
 
 
