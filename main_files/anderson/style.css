@@ -195,6 +195,11 @@ header {
 #logo_dark {display: none;float: left;margin-top: 25px;}
 header.small #logo {display: none;}
 
+#logo_link {
+	/*float: left;*/
+	font-size:25px;
+	color: white;
+}
 
 
 /*=================================================
@@ -289,7 +294,7 @@ header.white_menu  .social_nav li i,
 /* HEADER SMALL */
 
 header.small .main_nav {margin-top: 18px;}
-.small #logo_dark  { display: block; margin-top:15px; width: 130px}
+.small #logo_dark  { display: block; margin-top:15px; width: 175px}
 header.small .social_nav li i {padding: 20px;}
 
 

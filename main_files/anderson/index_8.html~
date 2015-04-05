@@ -58,10 +58,10 @@
 
 				<!-- *** LOGOS STARTS *** -->
 				<div id="logo">
-					<a href="#top"><img src="images/logo.png" alt="logo"></a>
+					<a href="#top" id="logo_link">tasty panama</a>
 				</div>
 				<div id="logo_dark">
-					<a href="#top"><img src="images/logo_dark.png" alt="logo"></a>
+					<a href="#top" id="logo_link">tasty panama</a>
 				</div> 
 				<!-- *** LOGOS END *** -->
 
@@ -125,21 +125,22 @@
 		<div class="tp-banner" >
 			<ul>	<!-- SLIDE  -->
 
-<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-thumb="http://placehold.it/320x240"  data-saveperformance="on"  data-title="Intro Slide">
+<li data-transition="fade" data-slotamount="7" data-masterspeed="500" img src="images/Tasty_Wallpaper4-04.jpg" data-saveperformance="on"  data-title="Bienvenidos">
 		<!-- MAIN IMAGE -->
-		<img src="assets/dummy.png"  alt="slidebg1" data-lazyload="http://placehold.it/1920x1080" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<img src="images/Tasty_Wallpaper4-04.jpg"  alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 		<!-- LAYERS -->
 		
 
-			<!-- LAYER NR. 5 -->
-		<div class="tp-caption sft stt rs-parallaxlevel-0  tp-resizeme"
+		<!-- LAYER NR. 5 -->
+
+		
+		<div class="caption lfb ltb cap_style_8_subtitle rs-parallaxlevel-0"
 			data-x="center"
-			data-y="230" 
+			data-y="250" 
 			data-speed="900"
 			data-start="800"
-			data-easing="Power3.easeInOut"
-			style="z-index: 2;"><img src="assets/dummy.png" alt="" data-lazyload="assets/slide8/logo.png">
-		</div>
+			data-easing="Power3.easeInOut">Bienvenidos a</div>
+		
 	
 
 			<!-- LAYER NR. 5 -->
@@ -153,14 +154,7 @@
 		</div>
 
 
-		<!-- CAPTION NR. 1 -->
-		<div class="caption sft stt cap_style_8 rs-parallaxlevel-0"  
-		data-x="center" 
-		data-y="center" 
-		data-speed="900" 
-		data-start="1300" 
-	
-		data-easing="Power3.easeInOut">Amsterdam<br>base designers</div>
+		
 
 
 	<!-- LAYER NR. 5 -->
@@ -181,7 +175,7 @@
 		data-speed="900" 
 		data-start="1700" 
 	
-		data-easing="Power3.easeInOut">pixel perfect design</div>
+		data-easing="Power3.easeInOut">El sabor de Panamá</div>
 
 
   
@@ -319,7 +313,7 @@
 <!-- *** ABOUT US END *** -->
 
 <!-- *** PARALLAX START *** -->
-<div class="parallax" style="background-image: url(https://lh5.googleusercontent.com/NLhvM0NzcHTMRdFjIRbKxQ7PzPMLgIVvRsvlOPNEjY4WJUAbMVClu4inzxFS_g8JW0_3ifDI2-MyTgE=w2560-h1350);">
+<div class="parallax" style="background-image: url(http://i.imgur.com/f4Dy4a1.jpg);">
 		<div class="parallax_over">
 			<div class="container animated"  data-animation-target="15">
 				<div class="row">
