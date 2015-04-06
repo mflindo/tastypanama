@@ -300,7 +300,7 @@ header.small .social_nav li i {padding: 20px;}
 
 /* HEADER STYLE 01: TRANSPARENT TO WHITE  */
 
-.transparent_menu li a {color:#dbdbdb;}
+.transparent_menu li a {color:rgb(255,255,255);}
 .transparent_menu .social_nav li:hover i {color: #161616;}
 .transparent_menu .social_nav li:hover {background: white;}
 header.small.transparent_menu {background-color: rgba(255,255,255, 1); border-bottom: 1px solid #F5F5F5;}
@@ -448,7 +448,7 @@ header.center_style.dark.small .social_nav li:hover i {color:white;}
 6 - ABOUT US
 =================================================*/
 .about_wrapper {position: relative;background-color: #F7F7F7;}
-.about_image {background-image: url('http://tastypanama.com/wp-content/themes/town/images/TastyPanamaLogo.svg');position: absolute; -webkit-background-size: cover;
+.about_image {background-image: url('images/TastyPanamaLogo.svg');position: absolute; -webkit-background-size: cover;
 background-size: cover;
 height: 100%;
 width: 50%;}

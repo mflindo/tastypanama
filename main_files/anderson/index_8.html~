@@ -568,344 +568,6 @@
 
 
 
-<!-- *** PROCESS ONE START *** -->
-<div id="process_one" class="section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 animated" data-animation-target="11" >
-				<div class="page_title">
-					<h1 class="title">Our Process is the principal measure of <strong>progress</strong></h1>
-					<h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
-				</div><!--page-title-->
-			</div>
-		</div><!--row-->
-	</div><!--container-->
-
-	<div class="process_wrapper">
-		<div class="process_image"></div>
-		<div class="container">
-			<div class="row">
-				
-					<div class="col-md-8 animated" data-animation-target="12">
-						<div class="process_item">
-							<div class="process_icon">
-								<div class="buzz"><i class="fa fa-sitemap fa-5x"></i></div>
-							</div>
-							<h3 class="uppercase">Process 01: Strategy</h3>
-							<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-						</div><!--process_item-->
-
-						<div class="process_item">
-							<div class="process_icon">
-								<div class="buzz"><i class="fa fa-pencil-square-o fa-5x"></i></div>
-							</div>
-							<h3 class="uppercase">Process 02: Plan</h3>
-							<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-						</div><!--process_item-->
-
-						<div class="process_item">
-							<div class="process_icon">
-								<div class="buzz"><i class="fa fa-gear fa-5x"></i></div>
-							</div>
-							<h3 class="uppercase">Process 03: Build</h3>
-							<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-						</div><!--process_item-->
-
-						<div class="process_item">
-							<div class="process_icon">
-								<div class="buzz"><i class="fa fa-bullhorn fa-5x"></i></div>
-							</div>
-							<h3 class="uppercase">Process 04: Promote</h3>
-							<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-						</div><!--process_item-->
-					</div>
-					<!--col-md-8-->
-			</div>
-		</div>
-	</div>
-</div>
-<!-- *** PROCESS ONE END *** -->
-
-
-
-
-
-
-
-
-<!-- *** PARALLAX START *** -->
-<div class="parallax" style="background-image: url(http://placehold.it/1920x1080);">
-	<div class="parallax_over nobottom">
-	<div class="container animated" data-animation-target="13">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="parallax_heading">
-						<h2>Video & Parallax Background</h2>
-						<h4 class="parallax_subtitle">This is a great parallax</h4>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="feature_item">
-						<i class="fa fa-eye"></i>
-						<h3>Retina Ready</h3>
-						<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque.</p>
-					</div>
-					<!--feature_item-->
-					<div class="feature_item">
-						<i class="fa fa-desktop "></i>
-						<h3>Fully Responsive</h3>
-						<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque.</p>
-					</div>
-					<!--feature_item-->
-					<div class="feature_item">
-						<i class="fa fa-heart"></i>
-						<h3>Bootstrap 3</h3>
-						<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque.</p>
-					</div>
-					<!--feature_item-->
-			
-					
-				</div>
-				<div class="col-md-4"> <div class="picture"><img src="images/mobile2.png" alt=""> </div></div>
-				<div class="col-md-4">
-					<div class="feature_item">
-						<i class="fa fa-paint-brush"></i>
-						<h3>Fresh Design</h3>
-						<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque.</p>
-					</div>
-					<!--feature_item-->
-					<div class="feature_item">
-						<i class="fa fa-css3"></i>
-						<h3>CSS Animations</h3>
-						<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque.</p>
-					</div>
-					<!--feature_item-->
-					<div class="feature_item">
-						<i class="fa fa-cogs  "></i>
-						<h3>Ajax Portfolio</h3>
-						<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque.</p>
-					</div>
-					<!--feature_item-->
-				</div>
-				<div class="clear"></div>
-			</div>
-		</div>
-	</div><!--parallax_over-->
-</div>
-<!-- *** PARALLAX END *** -->
-
-
-
-
-
-
-
-
-<!-- *** PROCESS TWO START *** -->
-<div id="process_two" class="section animated" data-animation-target="14">
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-md-6">
-				<div class="process_item_icon_right">
-					<div class="process_icon">
-						<div class="buzz"><i class="fa fa-thumbs-o-up fa-5x"></i></div>
-					</div>
-				<h3 class="uppercase">Process 01: Planning</h3>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-				</div><!--process_item_icon_right-->
-			</div><!--col-md-6-->
-
-			<div class="col-md-6">
-				<div class="process_item">
-					<div class="process_icon">
-						<div class="buzz"><i class="fa fa-file-image-o fa-5x"></i></div>
-					</div>
-				<h3 class="uppercase">Process 02: Layout Design</h3>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-				</div><!--process_item-->
-			</div><!--col-md-6-->
-
-			<div class="clear"></div>
-
-			<div class="col-md-6">
-				<div class="process_item_icon_right">
-					<div class="process_icon">
-						<div class="buzz"><i class="fa fa-sitemap fa-5x"></i></div>
-					</div>
-				<h3 class="uppercase">Process 03: Design and Development</h3>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-				</div><!--process_item_icon_right-->
-			</div><!--col-md-6-->
-
-			<div class="col-md-6">
-				<div class="process_item">
-					<div class="process_icon">
-						<div class="buzz"><i class="fa fa-file-word-o fa-5x"></i></div>
-					</div>
-				<h3 class="uppercase">Process 04: Content Writing</h3>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-				</div><!--process_item-->
-			</div><!--col-md-6-->
-
-			<div class="clear"></div>
-
-			<div class="col-md-6">
-				<div class="process_item_icon_right">
-					<div class="process_icon">
-						<div class="buzz"><i class="fa fa-bolt fa-5x"></i></div>
-					</div>
-				<h3 class="uppercase">Process 05: Coding</h3>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-				</div><!--process_item_icon_right-->
-			</div><!--col-md-6-->
-
-			<div class="col-md-6">
-				<div class="process_item">
-					<div class="process_icon">
-						<div class="buzz"><i class="fa fa-mobile fa-5x"></i></div>
-					</div>
-				<h3 class="uppercase">Process 06: Testing</h3>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-				</div><!--process_item-->
-			</div><!--col-md-6-->
-
-
-				<div class="clear"></div>
-
-
-				<div class="col-md-6">
-				<div class="process_item_icon_right">
-					<div class="process_icon">
-						<div class="buzz"><i class="fa fa-bullhorn fa-5x"></i></div>
-					</div>
-				<h3 class="uppercase">Process 07: Promotion</h3>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-				</div><!--process_item_icon_right-->
-			</div><!--col-md-6-->
-
-			<div class="col-md-6">
-				<div class="process_item">
-					<div class="process_icon">
-						<div class="buzz"><i class="fa fa-paper-plane fa-5x"></i></div>
-					</div>
-				<h3 class="uppercase">Process 08: Delivery</h3>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-				</div><!--process_item-->
-			</div><!--col-md-6-->
-
-		</div><!--row-->
-	</div><!--container-->
-</div>
-<!-- *** PROCESS TWO END *** -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- *** FAQ START *** -->
-<div id="faq" class="section gray animated" data-animation-target="16">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="page_title">
-					<h1 class="title">Read our <strong>Frequently Asked Questions</strong></h1>
-					<h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
-				</div><!--page-title-->
-			</div>
-
-
-
-			<div class="col-md-6">
-				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
-				<h3>How do I tap and pay in stores with the?</h3>
-				<div class="clear"></div>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness.</p>			
-			</div><!--col-md-6-->
-
-			<div class="col-md-6">
-				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
-				<h3>How do I save an offer to my Google Wallet?</h3>
-				<div class="clear"></div>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness.</p>	
-		
-			</div><!--col-md-6-->
-
-			
-
-			<div class="col-md-6">
-				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
-				<h3>What hapens after the free trial ends?</h3>
-				<div class="clear"></div>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness.</p>					
-			</div><!--col-md-6-->
-
-			<div class="col-md-6">
-				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
-				<h3>Are my credit numbers passed to the merchant?</h3>
-				<div class="clear"></div>	
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness.</p>					
-			</div><!--col-md-6-->
-
-			
-		
-
-
-
-			<div class="col-md-6">
-				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
-				<h3>Do I need to be connected to the internet to use ?</h3>
-				<div class="clear"></div>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness.</p>					
-			</div><!--col-md-6-->
-
-			<div class="col-md-6">
-				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
-				<h3>What debugging tools are available to developers?</h3>
-				<div class="clear"></div>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness.</p>					
-			</div><!--col-md-6-->
-
-			
-
-
-
-			<div class="col-md-6">
-				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
-				<h3>I've found a bug! How do I make sure it gets fixed?</h3>
-				<div class="clear"></div>
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness.</p>					
-			</div><!--col-md-6-->
-
-			<div class="col-md-6">
-				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
-				<h3>I have a feature request! How can I report it?</h3>
-				<div class="clear"></div>	
-				<p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness.</p>					
-			</div><!--col-md-6-->
-
-		</div><!--row-->
-	</div><!--container-->
-</div>
-<!-- *** FAQ END *** -->
-
-
-
-
 
 
 
@@ -919,7 +581,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="parallax_heading">
-						<h2>Our testimonials</h2>
+						<h2>Nuestras ubicaciones</h2>
 					</div>
 				</div>
 
@@ -1024,89 +686,7 @@
 
 
 
-<!-- *** BLOG START *** -->
-<div id="blog" class="section nobottom">
-	<div class="container">
-		<div class="row">
-				<div class="col-md-12 animated" data-animation-target="19">
-					<div class="page_title">
-					<h1 class="title">Amazing news from <strong>our blog</strong></h1>
-					<h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
-				</div><!--page-title-->
-				</div>
-		</div>
-	</div><!--container-->
 
-	
-
-	<div id="blog-carousel" class="animated" data-animation-target="20">
-
-			<div class="blog-item-home" style="background-image:url(http://placehold.it/950x500);">
-				<div class="wrapper_blog_title">
-					<h2><a href="blog-post.html">A Day in the Life of the CEO</a></h2>
-					<a href="blog-post.html"><div class="read_more black"><span>Read More</span></div></a>
-				</div><!--wrapper_blog_title-->
-				<div class="over_blog"></div>
-			</div><!--blog-item-home-->
-	
-
-	
-			<div class="blog-item-home" style="background-image:url(http://placehold.it/950x500);">
-				<div class="wrapper_blog_title">
-					<h2><a href="blog-post.html">Collis meeting with some of the head office team</a></h2>
-					<a href="blog-post.html"><div class="read_more black"><span>Read More</span></div></a>
-				</div><!--wrapper_blog_title-->
-				<div class="over_blog"></div>
-			</div><!--blog-item-home-->
-
-			<div class="blog-item-home" style="background-image:url(http://placehold.it/950x500);">
-				<div class="wrapper_blog_title">
-					<h2><a href="blog-post.html">Friends will be friends</a></h2>
-					<a href="blog-post.html"><div class="read_more black"><span>Read More</span></div></a>
-				</div><!--wrapper_blog_title-->
-				<div class="over_blog"></div>
-			</div><!--blog-item-home-->
-	
-
-			<div class="blog-item-home" style="background-image:url(http://placehold.it/950x500);">
-				<div class="wrapper_blog_title">
-					<h2><a href="blog-post.html">Excellent food at the Envato Meetup</a></h2>
-					<a href="blog-post.html"><div class="read_more black"><span>Read More</span></div></a>
-				</div><!--wrapper_blog_title-->
-				<div class="over_blog"></div>
-			</div><!--blog-item-home-->
-
-			
-			<div class="blog-item-home" style="background-image:url(http://placehold.it/950x500);">
-				<div class="wrapper_blog_title">
-					<h2><a href="blog-post.html">Collis checking emails and working on Envato's vision</a></h2>
-					<a href="blog-post.html"><div class="read_more black"><span>Read More</span></div></a>
-				</div><!--wrapper_blog_title-->
-				<div class="over_blog"></div>
-			</div><!--blog-item-home-->
-
-			<div class="blog-item-home" style="background-image:url(http://placehold.it/950x500);">
-				<div class="wrapper_blog_title">
-					<h2><a href="blog-post.html">New York Meetup 2014</a></h2>
-					<a href="blog-post.html"><div class="read_more black"><span>Read More</span></div></a>
-				</div><!--wrapper_blog_title-->
-				<div class="over_blog"></div>
-			</div><!--blog-item-home-->	
-
-	</div><!--blog-carousel-->
-
-
-	</div>
-
-
-<div class="blog_buttons">
-	<div class="col-md-6"><div class="read_allnews"><a href="blog.html"><i class="fa fa-book"></i>read all news in the blog</a></div></div>
-	<div class="col-md-3"><div class="read_prev_story"><a href="#"><i class="fa fa-chevron-left"></i>Read Prev</a></div></div>
-	<div class="col-md-3"><div class="read_next_story"><a href="#">Read Next <i class="fa fa-chevron-right"></i></a></div></div>
-	<div class="clear"></div>
-</div>
-
-<!-- *** BLOG END *** -->
 
 
 
@@ -1118,42 +698,40 @@
 <!-- *** FOOTER START *** -->
 <div id="footer" class="animated" data-animation-target="21">
 	<div class="col_footer">
-		<h2>About Us</h2>
-		<div class="footer_logo"><img src="images/logo_footer.png" alt=""></div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aspernatur, ratione voluptatum a, quam voluptate quibusdam reiciendis cupiditate quia fugiat earum, vero eveniet reprehenderit.</p>
+		<h2>Sobre Nosotros</h2>
+		<div class="footer_logo"><img src="images/TastyPanamaLogo.svg" alt=""></div>
+		<p>Tasty Panama es una empresa 100% Panameña.</p>
 
 		<div class="divider_padding small"></div>
 
-		<h2>Our location</h2>
+		<h2>Nuestra ubicación</h2>
 
 		<ul class="footer_adress">
-			<li><i class="fa fa-map-marker fa-2x"></i>1090 California Street, 3dn Floor, Punta del Este, Uruguay.</li>
-			<li><i class="fa fa-mobile fa-2x"></i>+124 456 789 / +000 123 456</li>
+			<li><i class="fa fa-map-marker fa-2x"></i>Dirección: Casa 14, Ave. 6a C Norte, El Carmen, Ciudad de Panamá, Panamá, Republica de Panamá</li>
+			<li><i class="fa fa-mobile fa-2x"></i>+507-6671-3270 / +507-6671-1020 / +507-6614-0902</li>
 		</ul>
 	
 
 		<div class="divider_padding small"></div>
 
-		<h2>Social</h2>
+		<h2>Redes</h2>
 
 		<ul class="footer_icon">
+			<li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
 			<li><a href="#"><i class="fa fa-pinterest fa-2x"></i></a></li>
 			<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-			<li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
-			<li><a href="#"><i class="fa fa-behance fa-2x"></i></a></li>
-			<li><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>
-			<li><a href="#"><i class="fa fa-github-square fa-2x"></i></a></li>
+			<li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
 		</ul>
 
 	</div>
 
 	<div class="col_footer middle">
-			<h2>Our latest tweets</h2>	
+			<h2>Siguenos en Instagram</h2>	
 		<div class="tweet"></div>
 	</div>
 
 	<div class="col_footer">
-		<h2>Contact</h2>
+		<h2>Contáctenos</h2>
 
 		<form method="post" class="reply-input" action="send.php">
 
@@ -1161,7 +739,7 @@
 			<input type="email" name="email" id="comment-email" required="" value="Your email (required)" onblur="if(this.value=='')this.value='Your email (required)'" onfocus="if(this.value=='Your email (required)')this.value=''"/>
 			<input type="text" name="website" id="comment-url" value="Your website" onblur="if(this.value=='')this.value='Your website'" onfocus="if(this.value=='Your website')this.value=''"/>
 			<textarea name="message" id="comment-message" cols="88" rows="6" required="" onblur="if(this.value=='')this.value='Your message'" 
-			onfocus="if(this.value=='Your message')this.value=''">Your message</textarea>
+			onfocus="if(this.value=='Your message')this.value=''">Tu mensaje</textarea>
 			<div class="clear"></div>
 			<input class="submit_buttom" type="submit" value="Send Message">
 
@@ -1176,7 +754,7 @@
 
 <!-- *** SUBFOOTER START *** -->
 <div id="subfooter">
-<div class="copyright">Copyright 2014. All Right Reserved.</div> <div class="by_author">Pixel & Code by <a href="#">Breecode</a></div><div class="clear"></div>
+<div class="copyright">2015 © Todos los Derechos Reservados.</div> <div class="by_author">Desarrollado por: <a href="http://bluetideconsulting.com/">BlueTide IT Consulting</a></div><div class="clear"></div>
 </div>
 <!-- *** SUBFOOTER END *** -->
 
