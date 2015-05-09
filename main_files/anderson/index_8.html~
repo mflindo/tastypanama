@@ -190,14 +190,12 @@
 		
 
 			<!-- LAYER NR. 5 -->
-		<div class="tp-caption sft stt rs-parallaxlevel-0  tp-resizeme"
+		<div class="caption lfb ltb cap_style_8_subtitle rs-parallaxlevel-0"
 			data-x="center"
-			data-y="230" 
+			data-y="250" 
 			data-speed="900"
 			data-start="800"
-			data-easing="Power3.easeInOut"
-			style="z-index: 2;"><img src="assets/dummy.png" alt="" data-lazyload="assets/slide8/logo.png">
-		</div>
+			data-easing="Power3.easeInOut">Panamá</div>
 	
 
 			<!-- LAYER NR. 5 -->
@@ -218,7 +216,7 @@
 		data-speed="900" 
 		data-start="1300" 
 	
-		data-easing="Power3.easeInOut">California<br>base designers</div>
+		data-easing="Power3.easeInOut">La tierra<br>entre dos oceanos</div>
 
 
 	<!-- LAYER NR. 5 -->

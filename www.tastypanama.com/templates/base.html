@@ -1,137 +1,59 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
-	<!--CACTUS-->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Tasty Panama</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible, Content-Type" content="text/html,IE=edge,chrome=1">
+        <title>Tasty Panama</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-		<link rel="stylesheet" href="{% static '/static/css/bootstrap.css' %}">
-		<style>
-		    body {
-		        padding-top: 50px;
-		        padding-bottom: 20px;
-		    }
-		</style>
-		<link rel="stylesheet" href="{% static '/static/css/bootstrap-theme.css' %}">
-		<link rel="stylesheet" href="{% static '/static/css/main.css' %}">
-		<script src="{% static '/static/js/vendor/modernizr-2.6.2.js' %}"></script>
+        <link rel="stylesheet" href="{% static '/static/css/bootstrap.css' %}" type="text/css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="{% static '/static/css/bootstrap-theme.css' %}">
+        <link rel="stylesheet" href="{% static '/static/css/main.css' %}">
+        <script src="{% static '/static/js/vendor/modernizr-2.6.2.js' %}"></script>
 
-	<!--TEMPLATE-->
-		
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-		<!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
-		<!-- EXTRA FONT FOR SLIDER -->
-		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600' rel='stylesheet' type='text/css'>
+	<!--TEMPLATE HEAD TAGS -->
+	
 
-		<!-- MAIN CSS LIBRARIES -->
-		<link href="{% static '/static/css/reset.css' %}" rel="stylesheet" type="text/css" />
-		
-		<link href="{% static '/static/css/prettyPhoto.css %}" rel="stylesheet" type="text/css" />
-		<link href="{% static '/static/css/font-awesome.css %}" rel="stylesheet" type="text/css" />
-		<link href="{% static '/static/css/owl.carousel.css %}" rel="stylesheet" type="text/css" />
-		<link href="{% static '/static/css/owl.theme.css %}" rel="stylesheet" type="text/css" />
-		<link href="{% static '/static/css/YTPlayer.css %}" rel="stylesheet" type="text/css" />
-		<link href="{% static '/static/css/animate.css %}" rel="stylesheet" type="text/css" />
+	<!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
-		<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-		<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="rs-plugin/css/extralayers.css" media="screen" />
+	<!-- ADOBE TYPEKIT CASLON FONT -->
+	<script src="//use.typekit.net/hni4sdy.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
 
-		<!-- MAIN STYLES FOR THE TEMPLATE -->
-		<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- EXTRA FONT FOR SLIDER -->
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600' rel='stylesheet' type='text/css'>
 
+	<!-- MAIN CSS LIBRARIES -->
+	<link href="{% static '/static/css/reset.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static '/static/css/prettyPhoto.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static '/static/css/font-awesome.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static '/static/css/owl.carousel.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static '/static/css/owl.theme.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static '/static/css/YTPlayer.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static '/static/css/animate.css' %}" rel="stylesheet" type="text/css" />
+
+	<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="{% static '/static/rs-plugin/css/settings.css' %}" media="screen" />
+	<link rel="stylesheet" type="text/css" href="{% static '/static/rs-plugin/css/extralayers.css' %}" media="screen" />
+
+	<!-- MAIN STYLES FOR THE TEMPLATE -->
+	<link href="{% static '/static/css/style.css' %}" rel="stylesheet" type="text/css" />
 
     </head>
 
     <body>
-
-<div id="top"></div>
-<div id="preloader">
-    <div id="status">&nbsp;</div>
-</div>
-
-
-<!-- *** HEADER STARTS *** -->
-<header class="transparent_menu">
-
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-
-				<!-- *** LOGOS STARTS *** -->
-				<div id="logo">
-					<a href="#top"><img src="images/logo.png" alt="logo"></a>
-				</div>
-				<div id="logo_dark">
-					<a href="#top"><img src="images/logo_dark.png" alt="logo"></a>
-				</div> 
-				<!-- *** LOGOS END *** -->
-
-				<ul class="mobile_nav_trigger">
-						<li><a href="#responsive_nav" class="menu_trigger"><i class="fa fa-bars fa-2x"></i></a></li>
-				</ul>
-
-					<div class="social_nav">
-					<ul>
-						<li class="twitter_header_icon"><a href="#twitter"><i class="fa fa-twitter fa-2x"></i></a></li>
-						<li class="facebook_header_icon"><a href="#facebook"><i class="fa fa-facebook fa-2x"></i></a></li>
-					</ul>
-				</div>
-				
-				<!-- *** MAIN NAVIGATION STARTS *** -->
-				<nav class="main_nav white">
-					<ul>
-						<li class="active"><a href="#top">Home</a></li>
-						<li><a href="#about-us">About </a></li>
-						<li><a href="#services">Services</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#process_one">Process</a></li>
-						<li><a href="#faq">FAQ</a></li>
-						<li><a href="#blog">Blog</a></li>
-						<li><a href="#footer">Contact</a></li>
-						<li><a href="shortcodes.html" class="external">Shortcodes <span class="label label-danger">New</span></a></li>
-					</ul>
-				</nav>
-				<!-- *** MAIN NAVIGATION END *** -->
-
-			</div><!--col-me-12-->
-		</div><!--row-->
-	</div><!--container-fluid-->
-
-
-<!-- *** RESPONSIVE NAV START *** -->
-	<div class="responsive_nav">
-		<div class="mobileAreaMenu">
-			<ul>
-				<li class="active"><a href="#top">Home</a></li>
-				<li><a href="#about-us">About </a></li>
-				<li><a href="#services">Services</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#process_one">Process</a></li>
-				<li><a href="#faq">FAQ</a></li>
-				<li><a href="#blog">Blog</a></li>
-				<li><a href="#footer">Contact</a></li>
-				<li><a href="shortcodes.html" class="external">Shortcodes <span class="label label-danger">New</span></a></li>
-			</ul>
-		</div><!--mobileAreaMenu-->
-	</div><!--responsive_nav-->
-<!-- *** RESPONSIVE NAV END *** -->
-
-</header>
-<!-- *** HEADER END *** -->
-
-
-    <!--CACTUS-->
-    <!--
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <!-- <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -144,8 +66,8 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="{% if_current_page '/index.html' 'active' '' %}"><a href="{% url '/index.html' %}">Home</a></li>
-            <li class="{% if_current_page '/about.html' 'active' '' %}"><a href="{% url '/about.html' %}">Sobre Nosotros</a></li>
-            <li class="{% if_current_page '/contact.html' 'active' '' %}"><a href="{% url '/contact.html' %}">Contactenos</a></li>
+            <li class="{% if_current_page '/about.html' 'active' '' %}"><a href="{% url '/about.html' %}">About</a></li>
+            <li class="{% if_current_page '/contact.html' 'active' '' %}"><a href="{% url '/contact.html' %}">Contact</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -169,15 +91,200 @@
             <button type="submit" class="btn btn-success">Sign in</button>
           </form>
         </div><!--/.navbar-collapse -->
-      </div>
-    </div>
-    -->
+    <!--  </div>
+    </div> -->
+
+<div id="top"></div>
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+<!-- *** HEADER STARTS *** -->
+<header class="transparent_menu dark">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+
+				<!-- *** LOGOS STARTS *** -->
+				<div id="logo">
+					<a href="#top"><img src="{% static '/static/images/TastyPanamaLogo.png' %}"  alt="logo"></a>
+				</div>
+				<div id="logo_dark">
+					<a href="#top"><img src="{% static '/static/images/TastyPanamaLogo.png' %}"  alt="logo"></a>
+				</div> 
+				<!-- *** LOGOS END *** -->
+
+				<ul class="mobile_nav_trigger">
+						<li><a href="#responsive_nav" class="menu_trigger"><i class="fa fa-bars fa-2x"></i></a></li>
+				</ul>
+
+					<div class="social_nav">
+					<ul>
+						<li class="twitter_header_icon"><a href="#twitter"><i class="fa fa-twitter fa-2x"></i></a></li>
+						<li class="facebook_header_icon"><a href="#facebook"><i class="fa fa-facebook fa-2x"></i></a></li>
+					</ul>
+				</div>
+				
+				<!-- *** MAIN NAVIGATION STARTS *** -->
+				<nav class="main_nav white">
+					<ul>
+						<li class="active"><a href="#top">inicio</a></li>
+						<li><a href="#welcome">bienvenidos</a></li>
+						<li><a href="#about-us">sobre nosotros</a></li>
+						<li><a href="#portfolio">nuestros productos</a></li>
+						<li><a href="#process_one">Process</a></li>
+						<li><a href="#faq">FAQ</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#footer">contáctenos</a></li>
+						<li><a href="shortcodes.html" class="external">Shortcodes <span class="label label-danger">New</span></a></li>
+					</ul>
+				</nav>
+				<!-- *** MAIN NAVIGATION END *** -->
+
+			</div><!--col-me-12-->
+		</div><!--row-->
+	</div><!--container-fluid-->
+
+
+<!-- *** RESPONSIVE NAV START *** -->
+	<div class="responsive_nav">
+		<div class="mobileAreaMenu">
+			<ul>
+				<li class="active"><a href="#top">inicio</a></li>
+				<li><a href="#about-us">bienvenidos</a></li>
+				<li><a href="#services">sobre nosotros</a></li>
+				<li><a href="#portfolio">nuestros productos</a></li>
+				<li><a href="#process_one">Process</a></li>
+				<li><a href="#faq">FAQ</a></li>
+				<li><a href="#blog">Blog</a></li>
+				<li><a href="#footer">Contáctenos</a></li>
+				<li><a href="shortcodes.html" class="external">Shortcodes <span class="label label-danger">New</span></a></li>
+			</ul>
+		</div><!--mobileAreaMenu-->
+	</div><!--responsive_nav-->
+<!-- *** RESPONSIVE NAV END *** -->
+
+</header>
+<!-- *** HEADER END *** -->
+
     {% block body %}
     {% endblock %}
 
     <script src="{% static '/static/js/vendor/jquery-1.10.1.js' %}"></script>
     <script src="{% static '/static/js/vendor/bootstrap.js' %}"></script>
     <script src="{% static '/static/js/main.js' %}"></script>
+
+	<!-- SCRTIPS START-->
+
+
+	<div class="loading_icon"></div>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="{% static '/static/js/bootstrap.min.js' %}"></script>
+	<script type="text/javascript" src="{% static '/static/js/jquery.prettyPhoto.js' %}"></script>	
+	<script type="text/javascript" src="{% static '/static/js/modernizr.custom.js' %}"></script>
+	<script type="text/javascript" src="{% static '/static/js/jquery.scrollTo.js' %}"></script>
+	<script type="text/javascript" src="{% static '/static/js/retina.js' %}"></script>
+	<script type="text/javascript" src="{% static '/static/js/jquery.nav.js' %}"></script>
+	<script type="text/javascript" src="{% static '/static/js/isotope.min.js' %}"></script>
+	<script type="text/javascript" src="{% static '/static/js/owl.carousel.js' %}"></script>
+	<script type="text/javascript" src="{% static '/static/js/tweetie.js' %}"></script>
+	<script type="text/javascript" src="{% static '/static/js/jquery.mb.YTPlayer.js' %}"></script>
+	<script type="text/javascript" src="{% static '/static/js/waypoints.min.js' %}"></script>
+
+	<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+
+	<script type="text/javascript" src="{% static '/static/rs-plugin/js/jquery.themepunch.tools.min.js' %}"></script>   
+	<script type="text/javascript" src="{% static '/static/rs-plugin/js/jquery.themepunch.revolution.min.js' %}"></script>
+
+
+	<script type="text/javascript" src="{% static '/static/js/custom.js' %}"></script>
+
+	<script type="text/javascript">
+
+		jQuery(document).ready(function() {
+	
+		jQuery('.tp-banner').show().revolution(
+			{
+				dottedOverlay:"none",
+				delay:7000,
+				startwidth:1170,
+				startheight:900,
+				hideThumbs:200,
+			
+				thumbWidth:100,
+				thumbHeight:50,
+				thumbAmount:5,
+			
+				navigationType:"bullet",
+				navigationArrows:"solo",
+				navigationStyle:"preview4",
+			
+				touchenabled:"on",
+				onHoverStop:"on",
+			
+				swipe_velocity: 0.7,
+				swipe_min_touches: 1,
+				swipe_max_touches: 1,
+				drag_block_vertical: false,
+									
+				parallax:"mouse",
+				parallaxBgFreeze:"on",
+				parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
+									
+				keyboardNavigation:"off",
+			
+				navigationHAlign:"center",
+				navigationVAlign:"bottom",
+				navigationHOffset:0,
+				navigationVOffset:20,
+
+				soloArrowLeftHalign:"left",
+				soloArrowLeftValign:"center",
+				soloArrowLeftHOffset:20,
+				soloArrowLeftVOffset:0,
+
+				soloArrowRightHalign:"right",
+				soloArrowRightValign:"center",
+				soloArrowRightHOffset:20,
+				soloArrowRightVOffset:0,
+					
+				shadow:0,
+				fullWidth:"on",
+				fullScreen:"off",
+
+				spinner:"spinner4",
+			
+				stopLoop:"off",
+				stopAfterLoops:-1,
+				stopAtSlide:-1,
+
+				shuffle:"off",
+			
+				autoHeight:"off",						
+				forceFullWidth:"on",						
+									
+									
+									
+				hideThumbsOnMobile:"off",
+				hideNavDelayOnMobile:1500,						
+				hideBulletsOnMobile:"off",
+				hideArrowsOnMobile:"off",
+				hideThumbsUnderResolution:0,
+			
+				hideSliderAtLimit:0,
+				hideCaptionAtLimit:0,
+				hideAllCaptionAtLilmit:0,
+				startWithSlide:0,
+				
+			});
+				
+		});	//ready
+				
+	</script>
+
   </body>
 
   {% block scripts %}
