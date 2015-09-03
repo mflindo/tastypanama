@@ -44,8 +44,8 @@
 	<link href="{% static '/static/css/animate.css' %}" rel="stylesheet" type="text/css" />
 
 	<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="{% static '/static/css/settings.css' %}" media="screen" />
-	<link rel="stylesheet" type="text/css" href="{% static '/static/css/extralayers.css' %}" media="screen" />
+	<link rel="stylesheet" type="text/css" href="{% static '/static/rs-plugin/css/settings.css' %}" media="screen" />
+	<link rel="stylesheet" type="text/css" href="{% static '/static/rs-plugin/css/extralayers.css' %}" media="screen" />
 
 	<!-- MAIN STYLES FOR THE TEMPLATE -->
 	<link href="{% static '/static/css/style.css' %}" rel="stylesheet" type="text/css" />
@@ -107,10 +107,10 @@
 
 				<!-- *** LOGOS STARTS *** -->
 				<div id="logo">
-					<a href="#top"><img src="{% static '/static/images/TastyPanamaLogo.png' %}"  alt="logo"></a>
+					<a href="#top"><img src="{% static '/static/images/TastyPanamaLogo2.png' %}"  alt="logo"></a>
 				</div>
 				<div id="logo_dark">
-					<a href="#top"><img src="{% static '/static/images/TastyPanamaLogo.png' %}"  alt="logo"></a>
+					<a href="#top"><img src="{% static '/static/images/Tasty_LogoHorizontal_FondoAzul.png' %}"  alt="logo"></a>
 				</div> 
 				<!-- *** LOGOS END *** -->
 

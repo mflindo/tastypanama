@@ -189,7 +189,7 @@ header {
 =================================================*/
 
 #logo {
-	float: left;margin-top: 20px;
+	float: left;margin-top: 15px;
 }
 
 #logo_dark {display: none;float: left;}
