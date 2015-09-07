@@ -48,8 +48,8 @@
 			<div class="col-md-8">
 				<div class="portfolioAjaxImage">
 						<div class="portfolio_slide">
-							<div class="item"><a href="{% static '/static/images/TastyPanama-20.png' %}" data-gal="prettyPhoto"><img src="{% static '/static/images/TastyPanama-20.png' %}" alt="Batutas"></a></div>
-							<div class="item"><a href="{% static '/static/images/TastyPanama-18.png' %}" data-gal="prettyPhoto"><img src="{% static '/static/images/TastyPanama-18.png' %}" alt="Batutas"></a></div>
+							<div class="item"><a href="{% static '/static/images/TastyPanama-23.jpg' %}" data-gal="prettyPhoto"><img src="{% static '/static/images/TastyPanama-23.jpg' %}" alt="Batutas"></a></div>
+							<div class="item"><a href="{% static '/static/images/TastyPanama-25.jpg' %}" data-gal="prettyPhoto"><img src="{% static '/static/images/TastyPanama-25.jpg' %}" alt="Batutas"></a></div>
 							
 						</div>
 
@@ -58,26 +58,18 @@
 			</div>
 
 			<div class="col-md-4">
-				<h3>Batutas bien solidas</h3>
+				<h3>Totumas pintadas</h3>
 				<div class="hr hr_small"> <span class="hr_inner"></span></div>
 				<div class="portfolioContent">
-					<p class="portfolioDescription">Son muy solidas.</p>
-					<h5><a href="#" class="linkactive">TWISP</a></h5>
-
-					<h3>Design</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-
+				<br/>
 					
 
-					<ul class="portfolioAjaxMetaList">
-						<li><strong>Skills :</strong> HTML5, JS, CSS3</li>
-						<li><strong>Client:</strong> Pixels</li>
-						<li><strong>Project URL:</strong> <a href="http://www.themeforest.net/?ref=breecode" target="_blank">www.themeforest.net</a></li>
-					</ul>
+					<h3>Sobre esta pieza</h3>
+					<p>Fruto del árbol Totumo, los artesanos de nuestras provincias crean diversos utensilios como vasos, cucharas, vasijas y preciosas obras de arte pintadas a mano.</p>
+
 					<br>
 
-					<a href="#link" class="btn btn-deep">Launch Project</a> 
-					<a href="#link" class="btn btn-primary">Download</a>
+					<a href="#link" class="btn btn-deep">Descargue Nuestro Catálogo</a>
 				</div><!--portfolioContent-->
 			</div>
 

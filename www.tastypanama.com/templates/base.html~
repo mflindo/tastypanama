@@ -107,7 +107,7 @@
 
 				<!-- *** LOGOS STARTS *** -->
 				<div id="logo">
-					<a href="#top"><img src="{% static '/static/images/TastyPanamaLogo2.png' %}"  alt="logo"></a>
+					<a href="#top"><img src="{% static '/static/images/Tasty_LogoHorizontal.png' %}"  alt="logo"></a>
 				</div>
 				<div id="logo_dark">
 					<a href="#top"><img src="{% static '/static/images/Tasty_LogoHorizontal_FondoAzul.png' %}"  alt="logo"></a>
