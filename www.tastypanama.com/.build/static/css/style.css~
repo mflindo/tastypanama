@@ -448,7 +448,7 @@ header.center_style.dark.small .social_nav li:hover i {color:white;}
 6 - ABOUT US
 =================================================*/
 .about_wrapper {position: relative;background-color: #F7F7F7;}
-.about_image {background-image: url('{% static '/static/images/TastyPanamaLogo2.png' %}');position: absolute; -webkit-background-size: cover;
+.about_image {background-image: url('{% static '/static/images/TastyPanamaLogo.svg' %}');position: absolute; -webkit-background-size: cover;
 background-size: cover;
 height: 100%;
 width: 50%;}
@@ -2245,7 +2245,7 @@ font-weight: bold;}
 =================================================*/
 .clients_list {margin: 0; text-align: center;}
 .clients_list li {width: 33.3%;
-background-color: #eaeaea;
+/*background-color: #eaeaea;*/
 border-right: 1px solid #d7d7d7;
 border-bottom: 1px solid #d7d7d7;
 float: left;
