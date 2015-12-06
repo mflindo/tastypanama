@@ -609,7 +609,7 @@
 	<div id="clients" class="animated" data-animation-target="18">
 	<div class="item_client">
 		<ul class="clients_list">
-		<li><img src="http://placehold.it/210x90" alt="clients"></li>
+		<li><img src="{% static '/static/images/sheraton.jpg' %}"" alt="clients"></li>
 		<li><img src="http://placehold.it/210x90" alt="clients"></li>
 		
 	</ul>
