@@ -120,7 +120,7 @@ blockquote p {
 .right {float: right;}
 .left {float: left;}
 
-.section{padding:160px 0px;background-color: #FFFFFF;}
+.section{padding:100px 0px;background-color: #FFFFFF;}
 .section.gray{background-color: #f3f3f3;}
 .section.nobottom {margin-bottom: 0; padding-bottom: 0;}
 .section.notop {margin-bottom: 0; padding-top: 0;}
@@ -2706,5 +2706,23 @@ header {height: 59px;}
 .video_logo {padding: 0;}
 
 }
+
+
+/*Custom BTC*/
+
+p {
+    margin: 0 0 20px;
+    font-family: 'Open Sans';
+}
+.pb-0{
+    padding-bottom: 0px!important;
+}
+.logo-bg{
+    max-width: 850px; float: right; margin-top: 15px;
+}
+div#team {
+    background-color: #FFF;
+}
+
 
 
