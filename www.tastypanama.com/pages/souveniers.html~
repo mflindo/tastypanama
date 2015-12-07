@@ -52,7 +52,8 @@
 				<div class="portfolioAjaxImage">
 						<div class="portfolio_slide">
 
-							<div class="item"><a href="{% static '/static/images/TastyPanama-77.jpg' %}" data-gal="prettyPhoto"><img src="{% static '/static/images/TastyPanama-74.jpg' %}" alt="The World is a Party"></a></div>
+							<div class="item"><a href="{% static '/static/images/TastyPanama-85.png' %}" data-gal="prettyPhoto"><img src="{% static '/static/images/TastyPanama-85.png' %}" alt="The World is a Party"></a></div>
+							<div class="item"><a href="{% static '/static/images/TastyPanama-86.png' %}" data-gal="prettyPhoto"><img src="{% static '/static/images/TastyPanama-86.png' %}" alt="The World is a Party"></a></div>
 							
 							
 							
@@ -67,7 +68,7 @@
 			</div>
 
 			<div class="col-md-4">
-				<h3>Bufandas de Mola</h3>
+				<h3>Souveniers de Excavaciones</h3>
 				<div class="hr hr_small"> <span class="hr_inner"></span></div>
 				<div class="portfolioContent">
 					<p class="portfolioDescription">Talladas 100% a mano.</p>

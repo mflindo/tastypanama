@@ -52,8 +52,8 @@
 				<div class="portfolioAjaxImage">
 						<div class="portfolio_slide">
 
-							<div class="item"><a href="{% static '/static/images/TastyPanama-50.jpg' %}" data-gal="prettyPhoto"><img src="{% static '/static/images/TastyPanama-50.jpg' %}" alt="The World is a Party"></a></div>
-							<div class="item"><a href="{% static '/static/images/TastyPanama-51.jpg' %}" data-gal="prettyPhoto"><img src="{% static '/static/images/TastyPanama-51.jpg' %}" alt="The World is a Party"></a></div>
+							<div class="item"><a href="{% static '/static/images/TastyPanama-56.jpg' %}" data-gal="prettyPhoto"><img src="{% static '/static/images/TastyPanama-56.jpg' %}" alt="The World is a Party"></a></div>
+							<div class="item"><a href="{% static '/static/images/TastyPanama-57.jpg' %}" data-gal="prettyPhoto"><img src="{% static '/static/images/TastyPanama-57.jpg' %}" alt="The World is a Party"></a></div>
 							
 							
 
@@ -64,26 +64,19 @@
 			</div>
 
 			<div class="col-md-4">
-				<h3>Marcadores de Libro</h3>
+				<h3>Imanes Unicos</h3>
 				<div class="hr hr_small"> <span class="hr_inner"></span></div>
 				<div class="portfolioContent">
-					<p class="portfolioDescription">Pintados 100% a mano.</p>
-					<h5><a href="#" class="linkactive">TWISP</a></h5>
+					<div class="portfolioContent">
+					<br/>
 
-					<h3>Design</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+					<h3>Sobre esta pieza</h3>
+					<p>Piezas únicas talladas y pintadas a mano en madera de árbol de café e inspiradas en la flora y fauna de nuestro país.</p>
 
-					
-
-					<ul class="portfolioAjaxMetaList">
-						<li><strong>Skills :</strong> HTML5, JS, CSS3</li>
-						<li><strong>Client:</strong> Pixels</li>
-						<li><strong>Project URL:</strong> <a href="http://www.themeforest.net/?ref=breecode" target="_blank">www.themeforest.net</a></li>
-					</ul>
 					<br>
 
-					<a href="#link" class="btn btn-deep">Launch Project</a> 
-					<a href="#link" class="btn btn-primary">Download</a>
+					
+					
 				</div><!--portfolioContent-->
 			</div>
 
