@@ -2723,6 +2723,72 @@ p {
 div#team {
     background-color: #FFF;
 }
+.title_welcome {
+    font-size: 50px!important;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 45px;
+    letter-spacing: -1px;
+    font-weight: 900;
+    margin-bottom: -10px;
+    font-family: 'Open Sans';
+}
+.welcome-text p {
+    font-size: 24px;
+    line-height: 35px;
+}
+.title {
+    font-size: 50px!important;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 45px;
+    letter-spacing: 0px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    font-family: 'Open Sans';
+}
+h2 {
+    font-size: 28px;
+    font-family: 'Open Sans';
+    letter-spacing: -1px;
+}
+.page_title {
+    margin-bottom: 50px;
+}
 
+
+/*Formulario de Contacto*/
+.required {
+    background-color: #F98181!important;
+    border: 1px solid #FD9191;
+    color: #fff;
+}
+a.submit_buttom {
+    background-color: #141414;
+    border: 1px solid #272727;
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    /* cursor: pointer; */
+    display: inline-block;
+    text-align: center;
+}
+.alert-success {
+    color: #FFFFFF;
+    background: none;
+    background-color: #2ecc71;
+    border: none;
+}
+.alert-danger {
+    color: #FFFFFF;
+    background: none;
+    background-color: #e74c3c;
+    border: none;
+}
 
 

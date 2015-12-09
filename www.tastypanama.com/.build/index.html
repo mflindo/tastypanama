@@ -20,10 +20,11 @@
 	<!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-	<!-- ADOBE TYPEKIT CASLON FONT -->
+	<!-- 
 	<script src="//use.typekit.net/hni4sdy.js"></script>
-	<script>try{Typekit.load();}catch(e){}</script>
+	<script>try{Typekit.load();}catch(e){}</script>-->
 
 	<!-- EXTRA FONT FOR SLIDER -->
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600' rel='stylesheet' type='text/css'>
@@ -288,7 +289,7 @@
 
 
 <!-- *** WELCOME STARTS *** -->
-<div id="welcome" class="parallax" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/static/images/sailing-the-san-blas-islands-panama-m.jpg');">
+<div id="welcome" class="parallax  nobottom" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/static/images/sailing-the-san-blas-islands-panama-m.jpg');">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -307,19 +308,7 @@
 
 
 <!-- *** ABOUT US STARTS *** -->
-<div id="about-us" class="section nobottom">
-	
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 animated" data-animation-target="2">
-				<div class="page_title">
-					<h1 class="title">SOBRE <strong>NOSOTROS</strong></h1>
-					<h2 class="page_subtitle">¿A QUÉ NOS DEDICAMOS?  ¿QUÉ NOS APASIONA?</h2>
-				</div><!--page-title-->
-					
-			</div>
-		</div><!--row-->
-	</div><!--container-->
+<div id="about-us" class="section notop nobottom">
 
 	<div class="about_wrapper">
 		<div class="about_image animated" data-animation-target="3" ><img class="logo-bg" src="/static/images/TastyPanamaLogo.svg"></div>
@@ -327,12 +316,17 @@
 			<div class="row">
 				
 					<div class="col-md-6 col-md-offset-6">
+                        
 						<div class="about_content animated" data-animation-target="4">
+                            <div class="page_title">
+                                <h1 class="title">SOBRE <strong>NOSOTROS</strong></h1>
+                                <h2 class="page_subtitle">¿A QUÉ NOS DEDICAMOS?  ¿QUÉ NOS APASIONA?</h2>
+                            </div><!--page-title-->
 							<h2 class="about_title">Acerca de Tasty Panama</h2>
 
 							<p>Somos una empresa que busca resaltar el trabajo de nuestros artesanos plasmándolos en productos de alta calidad que lleven el nombre de Panamá fuera de sus fronteras.</p>
 
-                                                        <h2 class="about_title">¿Quienes somos?</h2>
+                                                        <h2 class="about_title">¿Quiénes somos?</h2>
 
 							<p>Tasty Panama colabora con los artesanos en el diseño de sus productos que son elaborados con materiales o ingredientes de nuestras tierras, siguiendo estándares de calidad y buen gusto para adaptarlos al mercado local y/o a los turistas que visitan nuestro pais y desean llevar consigo recuerdos que hablen gratamente del sabor de Panamá.</p>
 
@@ -802,15 +796,19 @@
 	<div class="col_footer">
 		<h2>Contáctenos</h2>
 
-		<form method="post" class="reply-input" action="send.php">
+		<form method="post" id="contact" class="reply-input">
 
-			<input type="text" name="name" id="comment-name" required="" value="Your name (required)" onblur="if(this.value=='')this.value='Your name (required)'" onfocus="if(this.value=='Your name (required)')this.value=''"/>
-			<input type="email" name="email" id="comment-email" required="" value="Your email (required)" onblur="if(this.value=='')this.value='Your email (required)'" onfocus="if(this.value=='Your email (required)')this.value=''"/>
-			<input type="text" name="website" id="comment-url" value="Your website" onblur="if(this.value=='')this.value='Your website'" onfocus="if(this.value=='Your website')this.value=''"/>
-			<textarea name="message" id="comment-message" cols="88" rows="6" required="" onblur="if(this.value=='')this.value='Your message'" 
+			<input class="" type="text" name="name" id="name" required="" value="Your name (required)" onblur="if(this.value=='')this.value='Your name (required)'" onfocus="if(this.value=='Your name (required)')this.value=''"/>
+			<input class="" type="email" name="email" id="email" required="" value="Your email (required)" onblur="if(this.value=='')this.value='Your email (required)'" onfocus="if(this.value=='Your email (required)')this.value=''"/>
+			<input type="text" name="website" id="website" value="Your website" onblur="if(this.value=='')this.value='Your website'" onfocus="if(this.value=='Your website')this.value=''"/>
+			<textarea name="message" id="comment" cols="88" rows="6" required="" onblur="if(this.value=='')this.value='Your message'" 
 			onfocus="if(this.value=='Your message')this.value=''">Tu mensaje</textarea>
 			<div class="clear"></div>
-			<input class="submit_buttom" type="submit" value="Enviar mensaje">
+            
+            <div id="notmail" style="display:none;" class="alert alert-success" role="alert"> ¡Muchas Gracias! Su mensaje ha sido enviado correctamente. </div>
+            <div id="notmailerror" style="display:none;" class="alert alert-danger" role="alert"> Tenemos un problema. por favor rellene los campos obligatorios.</div>
+            
+            <a href="javascript:void(0);" onclick="sendMail();" class="submit_buttom">Enviar mensaje</a>
 
 		</form>
 			
@@ -851,6 +849,7 @@
 	<script type="text/javascript" src="/static/js/tweetie.js"></script>
 	<script type="text/javascript" src="/static/js/jquery.mb.YTPlayer.js"></script>
 	<script type="text/javascript" src="/static/js/waypoints.min.js"></script>
+    <script type="text/javascript" src="/static/js/contacto.js"></script>
 
 	<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
 
